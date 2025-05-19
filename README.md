@@ -1,5 +1,6 @@
 # Technology-for-the-poorest-Billion---Majicom
 Main Objectives
+
 Assisted Passive Water Cooling
 Objective: Investigate the opportunities, performance and implementations of a passive water cooling approach that will reduce the overall water temperature in a 100-litre storage tank so that the temperature of the water dispensed will be several degrees lower than without cooling.
 
