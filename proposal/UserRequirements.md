@@ -8,4 +8,5 @@ A set of basic level definitions that aim to set out the scope of the problem. T
 4. Product is small enough to conveniently fit its environment
 5. Product can maintain an airtight seal on all water storage and controls water quality
 6. Product is easy to repair and maintain, with a tank that is accessible through an access panel
-7. Product provides cooling methods at feasible energy consumption for solar panels 
+7. Product provides cooling methods at feasible energy consumption for solar panels
+8. Product can be manufactured and assembled efficiently, minimising excess complexity
