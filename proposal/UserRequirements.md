@@ -10,4 +10,4 @@ A set of basic level definitions that aim to set out the scope of the problem. T
 6. Product is easy to repair and maintain, with a tank that is accessible through an access panel
 7. Product provides cooling methods at feasible energy consumption for solar panels
 8. Product can operate with the energy provided through a solar power / battery system
-9. Product is affordable to manufacture, with the aim of assembly on site 
+9. Product is affordable to manufacture, with the aim of assembly on site
