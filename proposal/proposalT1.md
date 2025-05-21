@@ -4,11 +4,9 @@ Brief overview of the problem, context and engineering approach to tackle the pr
 
 # Presentation of the proposal
 
-## Assisted Passive Cooling 
 
 ### Summary 
 
-Assisted Passive Cooling is the process of continuously cooling the bulk water storage through indirect means. The aim is to achieve a drop of temperature of 3-5 degrees of the main tank through evaporative, radiative or other assisted passive cooling means.
 
 ### Types of Passive Cooling
 
