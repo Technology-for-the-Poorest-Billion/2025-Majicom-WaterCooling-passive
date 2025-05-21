@@ -9,8 +9,20 @@ Jakub (Aero & Thermo) - Strength: Thermodynamics, Fulid dynamics Weaknesses: Sta
 
 ## The resources needed
 
+General Resources:
+- Thermometers / Digital temperature probes
+- Humidity sensor 
 
+Evaporative Cooling:
+- Compact electric fans
+- Ceramic vessel or sheets (may be of secondary interest but a possible area of investigation)
+- 
 
+Radiative Cooling:
+
+Phase Changing Materials:
+
+- PCM samples
 ## The timeline
 
 
