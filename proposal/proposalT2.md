@@ -25,7 +25,7 @@ Core Deliverables:
 
 Secondary Deliverables:
 
-- Dehumidication method for inlet air
+- Dehumidification method for inlet air
 - Simulation or demonstration of airflow quality
 - 
 
