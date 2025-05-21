@@ -36,4 +36,42 @@ This project aims to bring what is considered common in developed countries - ch
 - Adds significant value - currently no other water kiosk is providing chilled water and as such this would be the first of its kind!
 
 
+# Project management:
+
+Large part of our project includes brainstorming and as such will require large collaboration. However each of us has separate strengths and the tasks will be tuned to satisfy them:
+
+- Jakub - strengths: heat transfer and thermodynamics
+- Oscar
+- Jamie
+
+These lead to the following intial task distribution:
+- Jakub - feasibilty of Peltier modules and proof of concept of spectrally selective materials
+- Oscar
+- Jamie
+To be filled: Budgeting, ease of access in the developing world, limit on heat transfer, CAD design and visualisation
+
+Skills required:
+- knowledge of the common practices and industry standards
+- learing to use teh test equipment and manufacturing of proof of concept designs
+
+Parts required:
+At such an early stage it is difficult to exactly pinpoint what products will be necessary. However, for any tests to be conducted teh following will be necessary:
+ - temperature probes
+ - water containers
+We have determined that most likely there is no need to make a proof of concept of the use of an evaporative cycle, which would take away large part of the risk and cost of the project otherwise.
+
+# Risk assessment and contingency
+
+In case there are issues with the arrival of parts necessary for the tests to be conducted, our project will focus more on the feasibility study and modelling of the most suitable areas for further development. In such case the main deliverable will be a clear research plan for Majicom for putting this research into practice leading to a quick and simple implementation of active cooling into the design.
+
+
+
+
+
+
+
+
+
+
+
 
