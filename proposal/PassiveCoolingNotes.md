@@ -1,6 +1,6 @@
 # Assisted Passive Cooling for Majicom
 
-Our team is developing a cheap, scalable passive cooling system for a solar-powered water purification kiosk in Tanzania. The local conditions are warm and humid, with a 6W solar panel powering the system. We’re focusing on assisted passive cooling—strategies that help retain cool temperatures rather than actively cooling the water—working with a £150 budget and 3 weeks for testing.
+Our team is developing a cheap, scalable passive cooling system for a solar-powered water purification kiosk in Tanzania. The local conditions are warm and humid, with a 6W solar panel powering the system. We’re focusing on assisted passive cooling strategies that help retain cool temperatures rather than actively cooling the water working with a £150 budget and 3 weeks for testing.
 
 ---
 
