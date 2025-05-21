@@ -24,7 +24,7 @@ Phase Changing Materials:
 
 - PCM samples
 ## The timeline
-
+proposal/assets/GanttChart .png
 
 
 ## The assessment of the risks and safety
