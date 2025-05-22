@@ -6,6 +6,8 @@ The aim of this project is to investigate a way to chill water before distributi
 
 # Presentation of the proposal
 
+[GM2 Project Proposal T1.pdf](https://github.com/user-attachments/files/20389346/GM2.Project.Proposal.T1.pdf)
+
 ### Project focus
 
 Active cooling methods have been well-researched and applied in industry. Every fridge runs on an evaporative cycle and this technology is very well developed. Hence, there is no need for a proof of concept of this cooling method. However what this project will focus on is how to more efficiently use the energy and integrate this cooling method with the kiosk. This requires first a broad exploration of the ideaspace, followed by more detailed design and thermal modelling. The main determined tasks include: Broad exploration and design calculation for determining the most likely dierections for progress, detailed feasibility study including costing and testing proof of concept designs.
