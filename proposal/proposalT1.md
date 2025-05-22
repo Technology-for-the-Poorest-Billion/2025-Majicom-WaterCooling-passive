@@ -1,5 +1,7 @@
 # Problem description
 
+For detailed project presentation please see the pdf of the slides.
+
 The aim of this project is to investigate a way to chill water before distribution from a Majicom kiosk. The kiosks have been loated in tropical areas and require a way of cooling the water independently of temperature and humidity. This leads to 2 possibilities: active and passive cooling.
 
 # Presentation of the proposal
