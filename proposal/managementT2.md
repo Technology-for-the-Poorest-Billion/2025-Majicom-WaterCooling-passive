@@ -1,6 +1,7 @@
 # Project management plan
 
 proposal/assets/ProjectProposalPresentation.pdf
+
 ## The people
 
 Alex (Mech & Aero) - Strengths: CAD, Mechanics & Materials, Design. Weaknesses: Git, Coding, Structures. Additional Training: OpenSCAD, Air flow testing or simulation 
