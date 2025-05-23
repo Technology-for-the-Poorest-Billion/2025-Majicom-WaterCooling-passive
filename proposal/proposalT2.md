@@ -8,7 +8,19 @@ Timothy to complete
 # Presentation of the proposal
 Need to upload slides as pdf somehow
 
-### Types of Passive Cooling
+### PCM
+
+Free cooling:
+
+PCMs can be used for a free cooling approach to rooms and storage vessels as described in https://www.sciencedirect.com/science/article/pii/S0378778816302419 . At night a ventillation system coupled with the natural temperature drop in the air is used to force cool air over the PCM, allowing it to solidify. Note that it is important that at night there is good airflow as the solidification process heats up the surrounding air, which needs to be vacated from the kiosk.
+
+During the day when the ambient temperature exceeds the melting point threshold, the PCM melts, allowing for the vessel to be cooled again. The PCM heat exchanger is designed as a series of thin PCM sheets which air flows through, maximising the heat exchange area. There are a wide range of PCMs available on the market, particularly parrafin based PCMs, which provide a solidifcation region within the expected range of temperatures (20-30 degrees) 
+
+An interesting challenge will be how much of the heat removal actually contributes to water cooling, whether that is by circulating the cool air over the tank or by directly cooling the water. It is also very possible that this technology could be used in conjuction with the evaporative cooling design. The PCM cools the air and improves the efficiency of evaporative cooling. Additionally both PCMs and evaporative cooling require a similar fan infrastructure, meaning that much of the design is shared. 
+
+Another question with PCMs is what the power consumption and night would need to look like, and whether stored battery power would be sufficient to operate the kiosk for sufficiently long to resolidify the PCM. 
+
+
 
 ### Project Focus 
 
@@ -45,7 +57,7 @@ Secondary Deliverables:
 
 - Design of the tank to maximise water cooling
 
-- 
+
 
 
 
