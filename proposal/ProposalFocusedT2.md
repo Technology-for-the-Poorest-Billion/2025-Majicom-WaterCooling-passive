@@ -38,4 +38,4 @@ Output:
 
 - This is likely the most complicated part of code. This will attempt to calculate the rate of evaporation based off of a number of high order approximations. The primary governing equation for this is
 
-\dot{m}_{\text{evap}} = S \cdot h_m \cdot A \cdot (P_s - P_a)
+$\dot{m}_{\text{evap}} = S \cdot h_m \cdot A \cdot (P_s - P_a)$
