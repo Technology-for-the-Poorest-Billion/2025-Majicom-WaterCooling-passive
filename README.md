@@ -24,3 +24,7 @@ Research:
 - radiative cooling: https://spie.org/news/diy-radiative-cooler-developed-to-serve-as-a-research-standard
 - https://www.researchgate.net/publication/330604585_Development_of_cold-hot_water_dispenser_with_thermoelectric_module_systems_HOMMALEE_et_al
 - [Earth water heat exchanger study.pdf](https://github.com/user-attachments/files/20281119/Earth.water.heat.exchanger.study.pdf)
+
+
+Key info:
+Average 6W power input, solar panelled that charges battery over time but these kiosks are placed in places with high buildings. No major constraints as they are very flexible in changing the system if benefits outweigh. 
