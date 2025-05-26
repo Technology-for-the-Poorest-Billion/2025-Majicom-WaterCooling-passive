@@ -4,23 +4,23 @@ This page contains all key references used throughout the project, including aca
 
 ---
 
-## Academic Papers
+## Academic Papers and Sites
 
-1. **Farid et al. (2004)**  
-   *A review on phase change energy storage: materials and applications*  
-   🔗 [Link](https://doi.org/10.1016/j.energy.2004.03.023)  
-   📄 `references/papers/farid_pcm_review.pdf`  
-   - Used for PCM theory (latent heat, phase transition principles). Cited in our background section and design considerations.
+1. **N. Kapilan et al. (2023)**
+   *A comprehensive review on evaporative cooling systems*
+   🔗 [Link]()
+   - 
+3. 
 
-2. **Safari & Dincer (2020)**  
-   *A review of solar refrigeration technologies*  
-   🔗 [Link](https://doi.org/10.1016/j.solener.2020.03.002)  
-   - Contextual understanding of solar-powered systems and energy use constraints.
+4. 
 
-3. **Zhou et al. (2017)**  
-   *Evaporative cooling performance of wet fabric covers in hot-humid climates*  
-   🔗 [Link](https://doi.org/10.1016/j.buildenv.2017.03.003)  
-   - Cited in our material selection methodology and evaporation rate discussion.
+5. **HSE**
+   *Managing legionella in hot and cold water systems*
+   🔗 [Link](https://www.hse.gov.uk/healthservices/legionella.htm)
+   - This bacteria is found in water and can multiply when temperatures are between 20-45 degrees but do not survive above 60, and are dormant below 20. Inhaling airborne water droplets with this bacteria can develop Legionnaire's disease, a type of fatal pneumonia.
+   - Cold water should be stored and distributed below 20 degrees, and routine checks should be done to clean the system
+   - Keep pipe work as short as possible and ensure materials used doesn't encourage growth, with airtight lids
+   - Copper and silver ionisation and biocide treatements also work but needs to be part of the water treatement too during installation
 
 ---
 
@@ -38,12 +38,10 @@ This page contains all key references used throughout the project, including aca
 
 ## Practical Case Studies & Inspiration
 
-- **MIT Passive Cooling Pavilion (2019)**  
-  🔗 [https://news.mit.edu/2019/passive-cooling-structure-humidity-evaporation-1113](https://news.mit.edu/2019/passive-cooling-structure-humidity-evaporation-1113)  
-  - Inspired airflow-driven evaporation design.
+- 
 
 - **Practical Action – Zeer Pot Cooler**  
-  🔗 [https://practicalaction.org](https://practicalaction.org)  
+  🔗 [[https://practicalaction.org/news-stories/zeer-pots-one-ingenious-solution-to-fresh-produce-for-longer/)]
   - Basis for traditional evaporative cooling concepts using clay and fabric layers.
 
 ---
