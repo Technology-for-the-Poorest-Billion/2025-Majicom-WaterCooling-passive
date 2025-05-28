@@ -83,6 +83,7 @@ Given that none of these accurately model the system we are looking at, a decisi
 The other option is to consider the inner cylinder as a flat plate. Typically this is only possible for slender cylinders, where edge effects caused by deflection of air over the flat face over the cylinder is negligible. In these scenarios a boundary layer is able to develop as on a flat plate. Given that there is negiglbe variation radially, and the system is axisymmetric, it can be considered as a flat plate. In our scenario, the aspect ratio of our tank is likely outside of the range where we can make these assumptions. However, we are arguing that the presence of the outer kiosk will act as a sheath, counteracting any radial deflection and meaning that the flow can very approximately be modelled used a flat plate analogy. Given that this is the case, the following empirical relationship can be said to apply 
 
 $Sh = 0.0664 Re_L^{1/2}Sc{1/3}$ For laminar flow
+
 $Sh = 0.0366Re_L^{0.8}Sc^{1/3}$ For turbulent flow
 
 **Alternatively** Beddingford & Drew (FIND SOURCE from https://studylib.net/doc/7272115/4-convective-mass-transfer---chemical-engineering-learning) found a correlation for axial flow over a cylinder as being modelled as approximately 
