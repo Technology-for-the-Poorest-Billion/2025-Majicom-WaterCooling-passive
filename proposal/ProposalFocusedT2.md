@@ -58,6 +58,39 @@ Inputs:
 Output: 
 - rate of evaporation
 
+
+Modelling Evaporation Rates:
+
+The main area of contention for this model is determining $h_m$, which is a mass transfer coefficient between the surface of the wrapping and the air flowing over the body. This field of study can often be considered as analagous to both heat transfer processes and also diffusive mass transfer between a solid and a fluid flowing over the body. This analogy leads us to look at comparing nondimensional expressions between these equivalent systems.
+
+Specifically, this leads us to look at the **Sherwood Number**, which is a nondimensional measure of convective mass diffusion. It is the mass flow equivalent of the Nusselts number.
+Sherwood Number is defined as 
+
+$Sh = h_m L/D$
+
+Where D is the mass diffusivity and L is a characteristic length.
+
+In order to calculate the Sherwood number,we can look at applying empirical relationships that very with the geometry of the system. This is the particular area where high order assumptions will likely need to be made. Commonly well understood geometries include:
+
+- Flow over a flat plate
+- Flow across a cylinder
+- Cross-flow over a cylinder
+- Pipe / Annular Flow
+- Flow through a stream of spheres
+
+Given that none of these accurately model the system we are looking at, a decision needs to be made as to which most accurately models our system. Initially, our tank/kiosk structure looks similar to an annular structure. However, in our situation evaporative mass transfer is only occuring from the external surface of the inner ring. The empirical relationships used for pipe flow look at internal flow through a cylinder and an annulus assumes that mass transfer occurs both through the inner and outer cylinder.
+
+The other option is to consider the inner cylinder as a flat plate. Typically this is only possible for slender cylinders, where edge effects caused by deflection of air over the flat face over the cylinder is negligible. In these scenarios a boundary layer is able to develop as on a flat plate. Given that there is negiglbe variation radially, and the system is axisymmetric, it can be considered as a flat plate. In our scenario, the aspect ratio of our tank is likely outside of the range where we can make these assumptions. However, we are arguing that the presence of the outer kiosk will act as a sheath, counteracting any radial deflection and meaning that the flow can very approximately be modelled used a flat plate analogy. Given that this is the case, the following empirical relationship can be said to apply 
+
+$Sh = 0.0664 Re_L^(1/2)Sc^(1/3)$
+
+
+https://studylib.net/doc/7272115/4-convective-mass-transfer---chemical-engineering-learning
+
+https://www.tmt.unze.ba/zbornik/TMT2015/TMT_2015_084.pdf
+
+https://wwwcourses.sens.buffalo.edu/ce407/notes/ce407_notes_mass_transfer_correlations.pdf
+
 https://link.springer.com/content/pdf/10.1007/s40032-014-0098-0.pdf
 
 https://link.springer.com/article/10.1007/s11242-022-01775-7
