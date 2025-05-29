@@ -1,10 +1,9 @@
-# Evaporative Cooling Experimental Testing Plan
+# Evaporative Cooling T2 Methodology and Testing
+**Summary:** My role focuses on designing, building, and testing an evaporative cooling system for Majicom's solar-powered water purification kiosk. The aim is to keep purified water cool post-filtration, particularly in hot off grid environments like Tanzania, where both energy and material resources are limited.
 
-## Experimental Testing
+I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing.
 
-We will experimentally evaluate and optimise a small-scale evaporative cooling system by comparing the effects of different fabric materials and airflow conditions on the temperature of a 1L water container. The goal is to identify the most efficient combination of material and fan setup (different positions and speeds) that delivers maximum cooling using minimal water and energy.
-
-The experiments will be conducted under controlled indoor conditions and repeated outdoors (if feasible), simulating the intended application in Tanzanian climates.
+While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. 
 
 ---
 
