@@ -28,4 +28,16 @@ Could model as simple 1D heat transfer with known Q due to evaporation. It is ex
 
 
 
+# Proposal Summary
 
+In order to produce deliverable results within the required timeframe, the below condensed propsal has been produced. The aim of this is to outline what we feel is realistically achievable over the short period of the next three weeks. The previous proposal explored three different assisted passive cooling methods: evaporative cooling, PCM and radiative cooling. The scope of the project is now being narrowed down to focus predominantly on evaporative cooling. The aims of the project (in priority order) are as follows:
+
+1. To identify the optimal material to coat or construct the storage tank in to maximise evaporative cooling
+2. To calculate air speeds and fan powers required to achieve the desired cooling
+3. To experimentally validate these results through the application of a small scale model
+4. To explore experimentally how different spray methods or fan placements affect the results quality (low priority)
+
+
+Throughout this process, the parameters of interest (as discussed above) can be varied to explore how they may affect the end result. 
+Much of this may be based on simplification, and more complicated aspects, like capillary action in the material may be too complicated to implement. 
+Also worth exploring whether it is possible to adapt this model to consider a clay vessel that passively leaks water - zero outer layer thickness and mass of water availble to evaporate given by porosity of clay, always at S = 1.
