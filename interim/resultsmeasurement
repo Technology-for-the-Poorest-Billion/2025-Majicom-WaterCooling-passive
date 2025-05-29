@@ -5,7 +5,7 @@
 - known q from evaporation
 - known thermal conductivity of container
 
-## Test data to be measured:
+# Test data to be measured:
 
 1. ambient temperature in evaporation chamber
 2. temperature of water at the wall of container
@@ -13,7 +13,7 @@
 
 note: preferrably measure the temperatue closer to top of water level
 
-### Calculation of useful data
+# Calculation of useful data
 
 Would be useful to find out
 1. outlet temperature
@@ -21,7 +21,7 @@ Would be useful to find out
 
 Could model as simple 1D heat transfer with known Q due to evaporation. It is expected that due to the small margin of temperature, it may be possible to simplify the model further and assume uniform temperature distribution in water.
 
-#### Useful links
+# Useful links
 
 - https://www.mdpi.com/2075-1680/12/4/335
 - https://www.sciencedirect.com/science/article/pii/S1290072909001379#:~:text=rights%20and%20content-,Abstract,axisymmetric%20domain%20has%20been%20considered.
