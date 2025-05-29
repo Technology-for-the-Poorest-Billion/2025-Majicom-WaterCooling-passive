@@ -1,8 +1,22 @@
-Assumptions
-simple 1D model
-uniform thermal conductivity across temperature range (change too small so neglegible)
-known q from evaporation
-known thermal conductivity of container
+# Assumptions
+- simple 1D model
+- uniform thermal conductivity across temperature range (change too small so neglegible)
+- known q from evaporation
+- known thermal conductivity of container
+
+## Test data to be measured:
+1. ambient temperature in evaporation chamber
+2. temperature of water at the wall of container
+3. thicknesses
+
+note: preferrably measure the temperatue closer to top of water level
+
+### Calculation of useful data
+Would be useful to find out
+1. outlet temperature
+2. average temperature in tank
+
+Could model as simple 1D heat transfer with known Q due to evaporation. It is expected that due to the small margin of temperature, it may be possible to simplify the model further and assume uniform temperature distribution in water.
 
 https://www.mdpi.com/2075-1680/12/4/335
 
@@ -25,3 +39,5 @@ average temperature
 measuring external ambient temp too?
 
 try taking at edge of inner cylinder first and then see if there is significant effect?
+
+
