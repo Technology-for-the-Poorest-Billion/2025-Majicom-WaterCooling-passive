@@ -1,3 +1,4 @@
+
 # Proposal Summary
 
 In order to produce deliverable results within the required timeframe, the below condensed propsal has been produced. The aim of this is to outline what we feel is realistically achievable over the short period of the next three weeks. The previous proposal explored three different assisted passive cooling methods: evaporative cooling, PCM and radiative cooling. The scope of the project is now being narrowed down to focus predominantly on evaporative cooling. The aims of the project (in priority order) are as follows:
@@ -22,7 +23,29 @@ The aim of the model is to identify the temperature drop in the body of water as
 
 Keeping variables such as tank / kiosk geometry controlled, and making a series of assumptions to simplify parts of the analysis. 
 
-The logic of the model will work as such:
+### Transport Properties of moist air
+
+In order to be able to accurately model the airflow. It is important to be able to determine the transport properties of air.
+
+Inputs:
+- Temperature
+- Pressure
+- Humidity
+
+Outputs:
+
+- Saturation Pressure
+- Vapour partial pressure
+- dynamic / kinematic viscosity
+- thermal conductivity
+- density / specific volume
+
+Investigating how to determine these properties, as well as a review of IB thermofluids content lead me to https://www.scribd.com/document/628245606/Qpedia-Nov08-Estimating-the-Effect-of-Moist-Air-on-Natural-Convection-Heat-Transfer
+Which breaks down numerical solutions to determine critical transport properties of humid air.
+
+Further investigation revealed that these features had already been built into python by http://www.coolprop.org/
+
+
 
 ### Air Speed Calculation
 
@@ -90,6 +113,7 @@ $Sh = 0.0366Re_L^{0.8}Sc^{1/3}$ For turbulent flow
 
 $k_GPSc^{0.56}/{G_m} = 0.281(Re_D)^{-0.4}$
 
+On further review **this is not applicable** it is for flow **normal to the axis**
 
 https://studylib.net/doc/7272115/4-convective-mass-transfer---chemical-engineering-learning
 
@@ -126,3 +150,4 @@ Output:
 Throughout this process, the parameters of interest (as discussed above) can be varied to explore how they may affect the end result. 
 Much of this may be based on simplification, and more complicated aspects, like capillary action in the material may be too complicated to implement. 
 Also worth exploring whether it is possible to adapt this model to consider a clay vessel that passively leaks water - zero outer layer thickness and mass of water availble to evaporate given by porosity of clay, always at S = 1.
+
