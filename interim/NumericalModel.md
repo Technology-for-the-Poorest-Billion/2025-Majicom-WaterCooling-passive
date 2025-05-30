@@ -125,6 +125,23 @@ https://link.springer.com/content/pdf/10.1007/s40032-014-0098-0.pdf
 
 https://link.springer.com/article/10.1007/s11242-022-01775-7
 
+### Evaporation Rate Calculation Challenges 
+
+There have been a broad number of challenges assocaited with calculating the mass transfer and the heat transfer. The details of which and possible methods to overcome them are detailed below:
+
+Saturated Vapour Pressure:
+
+In order to find the mass flow, I need to know the temperature of the fabric at the equilibrium point. In order to determine this I need to know the energy removed from the system and so the argument becomes circular.
+In order to calculate a stable equillibrium point I am considering an energy balance between the energy conducted through the tank, the energy convected into the air and the energy lost through latent heat.
+Iterating over this balance numerically from a reasonable starting point (via Newton-Raphson or another numerical scheme) I can identify a stable solution. This is assuming that the tank of water is well mixed and therefore at a uniform temperature. This is not an unreasonable assumption, as the tank will likely be sitting full, with small amounts of additional water added periodically that are small in comparison to the bulk volume of the tank.  As such the tank will have had sufficient time for transient thermal gradients to decay and therefore have a roughly uniform temperature profile.
+
+Saturation Ratio:
+
+Modelling the saturation ratio is slightly more complex than initially anticipated. it is important to be able to do this so that I can estimate the thermal conductivity of the coating material. For thermal conductivity it is the volume ratio that matters and it is a three phase system - water, fibre and air (although I may be able to neglect the effects of air if its volume fraction is very small). There is some important distinction here to be made about exaclty how much water can be absorbed by the fabric and then also how much air is within the fabric. When the material is totally soaked, it holds water not just in its pores, but also by swelling to absorb water. As such, it is possible that at a high saturation (say 0.8-0.9) that there is no air at all present (rather than the 0.1-0.2 that you might expect). As such I need to make a decision as to how to account for the air. 
+
+One possible option is that air is accounted for below a certain threshold, where I assume all the water to be held in pores, and above which i switch to the assumption that there is no air and it is all due to water swell. 
+
+
 ### Energy exchange 
 
 The final part of this is to use thermal conductivity models to estimate the temperature change in the water:
