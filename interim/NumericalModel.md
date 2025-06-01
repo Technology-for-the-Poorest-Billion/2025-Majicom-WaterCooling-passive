@@ -11,6 +11,8 @@ In order to produce deliverable results within the required timeframe, the below
 
 ## Numerical Model
 
+https://colab.research.google.com/drive/1D8jrgBWuxRUjkXFdTaMW2er6YYpis4Rj?authuser=1
+
 The numerical model is the first focus of the project and ideally will take 1 - 1.5 weeks to construct sufficiently accurately to inform experimental results. Over the latter half of the project, further refinement can take place alongside the experimental method. 
 
 ****Aim****
