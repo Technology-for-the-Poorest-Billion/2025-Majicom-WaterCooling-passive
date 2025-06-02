@@ -19,7 +19,7 @@ To test evaporative cooling performance, a developed **controlled model** is use
 - Fabric materials soaked and wrapped around each bottle
 - PC fans (~12V) to generate controlled airflow
 
-The fan is placed **5–10 cm away** from the bottle to ensure measurable airflow across the surface. The bottle is suspended inside the bucket secured by a 3D printed clamp or placed centrally to standardise airflow exposure.
+The fan is placed **5–10 cm away** from the bottle to ensure measurable airflow across the surface. The bottle is suspended inside the bucket secured by a 3D printed clamp or placed centrally to standardise airflow exposure. We are also using cold tap water to mimic the temperature they could get in Tanzania (around 15 degrees).
 
 ![Experimental Setup](interimassets/gm2expp1.jpg)
 ![Experimental Setup](interimassets/gm2expp2.jpg)
