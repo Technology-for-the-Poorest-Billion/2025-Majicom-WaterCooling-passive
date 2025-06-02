@@ -73,11 +73,16 @@ Retained more water, cooled slowly. Less effective in short trials but potential
 - Control (no fabric):
 Heated up over time — proves that airflow alone isn't enough without evaporation.
 
-- We used ΔT = T_ambient − T_bottle as our main metric:
+We used ΔT = T_ambient − T_bottle as our main metric:
 Larger ΔT = more effective cooling.
 This also links directly to our numerical model, which uses ΔT to validate simulated heat transfer and evaporation rates.
 
 ## Main Goals and Next Steps
+This impacts testing going forward by helping us narrow down variables and focus on what works best:
+We'll prioritise linen as the main material since it showed the strongest cooling.
+12V bottom fan setup will be our default, as it consistently gave the best results.
+We'll now test fan distance and possibly multi-layer fabric setups to fine-tune performance.
+These results also let us calibrate the numerical model more accurately, so future testing can be more predictive and less trial-and-error.
 
 **End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
 
