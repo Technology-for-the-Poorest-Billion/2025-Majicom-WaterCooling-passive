@@ -9,51 +9,84 @@ While T1 is exploring a **heat pump-based system**, our work focuses on an **ass
 
 ## Experimental Method
 
-### Prepare Materials
-- Cut each fabric sample to the same size and thickness (e.g. A4)
-- Pre-soak all samples in water for 5 minutes
-- Lightly wring and weigh each sample before wrapping (optional)
+To test evaporative cooling performance, I developed a **controlled model** using:
 
-### Bottle Setup
-- Use 6 identical 1L bottles filled with room-temperature water
-- Wrap each bottle tightly with one fabric type (ensuring same thickness)
-- Secure fabric with elastic bands or tape for consistent contact
+- 1L plastic bottles (representing kiosk containers)
+- A small 3–5L bucket acting as an airflow chamber
+- Fabric materials soaked and wrapped around each bottle
+- PC fans (~12V) to generate controlled airflow
 
-### Assign Airflow
-- Place 3 bottles under fans with variable speeds (~15–20 cm away), inside a bucket or enclosed container to control airflow
-- Leave 3 bottles as control samples with no fan
-- Ensure all bottles are in the same environment (same bench, lighting, etc.)
+The fan is placed **5–10 cm away** from the bottle to ensure measurable airflow across the surface. The bottle is suspended inside the bucket secured by a 3D printed clamp or placed centrally to standardise airflow exposure.
 
-### Record Starting Temperature
-- Use a basic thermometer to measure starting water temperature in each bottle
-- Ensure consistent timing and measurement across samples
+### Why This Model?
 
-###  Begin Test
-- Run experiment for approx. 3 hours
-- Re-wet fabrics halfway through if needed (record time and water amount)
-- Note general environmental conditions (approx. room temp, airflow)
+- Represents the **scale and shape** of real-world water containers
+- Easy to replicate for multiple material and fan configurations
+- Allows us to **control parameters** such as airflow speed, fabric type, thickness, and ambient conditions
 
-### Record Final Data
-- Measure final water temperature for each bottle using the same thermometer
-- Optionally weigh each fabric again to estimate evaporated water mass
+## Materials Selection
+
+Three core fabrics were selected based on **availability, fibre porosity, and capillary action**:
+
+| Material | Rationale |
+|----------|-----------|
+| **Cotton** | High absorption, good wicking, easy to wrap tightly |
+| **Linen** | Excellent evaporation due to flax fibres, durable |
+| **Jute** | Coarse but retains water well, tested for feasibility |
+
+Each material was wrapped in **1 or 2 layers** depending on thickness (~0.2 to 0.5 cm per layer), and soaked for 5 minutes before testing. Some fabrics like bamboo viscose were excluded due to procurement difficulty.
+
+## Measurements 
+
+For each trial, I recorded the following:
+*Fabric wet and dry weight* — to measure how much water is retained initially and track drying.
+*Initial and final water temperature (°C)* — to assess cooling effectiveness over a fixed period.
+*Room temperature (ambient)* — to contextualise thermal gradients and allow comparison across trials.
+*Time elapsed — standardised* (e.g. 40 min) for fair comparison.
+*Water mass loss* — to evaluate evaporation rate directly to fit numerical model.
+
+*Using ΔT = T_ambient - T_bottle is critical*
+We focus on the temperature differential between the ambient environment and the cooled bottle because:
+A more negative ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
+It allows us to standardise cooling effectiveness across varying room temperatures, which is especially relevant for future outdoor testing.
+
+This directly maps to thermal modelling inputs: the numerical model Alex is developing simulates heat flux balance across the bottle surface, where ambient air temp is a boundary condition and fabric-induced cooling affects surface heat transfer coefficients.
+
+By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions.
+
+## Analysis 
+
+Fan speed and position matter:
+12V > 9V — higher airflow gave better cooling.
+Bottom fans worked better than top fans, likely due to better contact with wet fabric.
+
+Linen performed best:
+Fastest and most sustained cooling across trials. High breathability + quick drying.
+
+Cotton was decent:
+Improved with airflow, especially under top fan. Good absorption, moderate evaporation.
+
+Jute was slow but steady:
+Retained more water, cooled slowly. Less effective in short trials but potentially better for long-term cooling.
+
+Control (no fabric):
+Heated up over time — proves that airflow alone isn't enough without evaporation.
+
+We used ΔT = T_ambient − T_bottle as our main metric:
+Larger ΔT = more effective cooling.
+This also links directly to our numerical model, which uses ΔT to validate simulated heat transfer and evaporation rates.
+
+## Main Goals and Next Steps
+
+**End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
+
+### Key next steps:
+- Finalise testing for **fan distance and speed variations**
+- Narrow down to **2–3 most promising setups**
+- Conduct **outdoor validation** (weather permitting)
+- Prepare implementation proposal for **real-world kiosk integration**
 
 ---
-
-## What to Analyse
-
-- **Cooling performance**: Which combinations gave the biggest temperature drop?
-- **Fan effectiveness**: Did the fan significantly improve cooling across all materials?
-- **Water usage**: Which materials lost the most water (if weighing)?
-- **Practicality**: Which materials stayed wet the longest, dried too quickly, or were easiest to handle?
-
----
-
-## Final Output
-
-From this test, we will determine:
-- The most effective material + airflow pairing
-- Whether including a fan or multiple fans is worth the extra energy
-- Realistic estimates of water use and cooling potential in a kiosk setting
 
 ---
 
