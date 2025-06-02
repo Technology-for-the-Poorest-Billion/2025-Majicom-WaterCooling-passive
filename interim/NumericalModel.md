@@ -49,7 +49,7 @@ Further investigation revealed that these features had already been built into p
 
 
 
-#Air Speed Calculation
+# Air Speed Calculation
 
 - Using fan properties to calculate the airspeed. This can be achieved either through analytic approximations for air speed based on fan power, or by using different fan specifications (using its CFM - cubic feet per minute, i.e volumetric flow rate)
 
