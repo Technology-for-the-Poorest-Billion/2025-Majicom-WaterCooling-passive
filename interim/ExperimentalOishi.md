@@ -63,7 +63,7 @@ This directly maps to thermal modelling inputs: the numerical model Alex is deve
 <!-- By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions. -->
 
 ## Analysis 
-![Experimental Setup](interimassets/gm2_graph_1.png)
+![Experimental Setup](interimassets/gm2graph1.png)
 
 ![Experimental Setup](interimassets/gm2graph2.png)
 
