@@ -34,7 +34,7 @@ Three core fabrics were selected based on **availability, fibre porosity, and ca
 | **Linen** | Excellent evaporation due to flax fibres, durable |
 | **Jute** | Coarse but retains water well, tested for feasibility |
 
-Each material was wrapped in **1 or 2 layers** depending on thickness (~0.2 to 0.5 cm per layer), and soaked for 5 minutes before testing. Some fabrics like bamboo viscose were excluded due to procurement difficulty.
+Each material was wrapped in **1 or 2 layers** depending on thickness (2mm), and soaked for 5 minutes before testing. Some fabrics like bamboo viscose were excluded due to procurement difficulty.
 
 ## Measurements 
 
@@ -77,6 +77,7 @@ Larger ΔT = more effective cooling.
 This also links directly to our numerical model, which uses ΔT to validate simulated heat transfer and evaporation rates.
 
 ## Main Goals and Next Steps
+
 This impacts testing going forward by helping us narrow down variables and focus on what works best:
 We'll prioritise linen as the main material since it showed the strongest cooling.
 12V bottom fan setup will be our default, as it consistently gave the best results.
