@@ -90,6 +90,7 @@ This impacts testing going forward by helping us narrow down variables and focus
 We'll prioritise linen as the main material since it showed the strongest cooling.
 We'll now test one more fan position (two fans controlling airflow from the side), speed and possibly multi-layer fabric setups to fine-tune performance, and choose the optimal parameters.
 These results also let us calibrate the numerical model more accurately, so future testing can be more predictive and less trial-and-error.
+Continue weekly meeting with Majicom to ensure we are staying on track.
 
 ---
 ## Expected Discrepancies with Numerical Model
@@ -97,6 +98,7 @@ These results also let us calibrate the numerical model more accurately, so futu
 - Material inconsistencies: Natural fabrics (like jute or linen) may have uneven porosity or thickness, affecting evaporation.
 - Heat losses: Model may not fully capture heat exchange through the bottle cap or sides not covered in fabrics.
 - Evaporation rate constants: Experimental values may differ due to wind turbulence and fabric saturation limits.
+- Legionella growth at 20-25 degrees
   
 ## Risk Assessment Summary
 - Electrical safety: Low-voltage (12V) fans minimise risk, but all wiring is kept insulated and secured.
