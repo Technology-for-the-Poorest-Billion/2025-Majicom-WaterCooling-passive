@@ -14,7 +14,7 @@
 
 To test evaporative cooling performance, a developed **controlled model** is used:
 
-- 1L plastic bottles (representing kiosk containers)
+- 500mL plastic bottles (representing kiosk containers)
 - A small 3–5L bucket acting as an airflow chamber
 - Fabric materials soaked and wrapped around each bottle
 - PC fans (~12V) to generate controlled airflow
