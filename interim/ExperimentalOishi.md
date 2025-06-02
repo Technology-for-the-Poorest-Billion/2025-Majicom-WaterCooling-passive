@@ -86,6 +86,7 @@ These results also let us calibrate the numerical model more accurately, so futu
 
 **End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
 
+
 ### Key next steps:
 - Finalise testing for **fan distance and speed variations**
 - Narrow down to **2–3 most promising setups**
@@ -93,6 +94,19 @@ These results also let us calibrate the numerical model more accurately, so futu
 - Prepare implementation proposal for **real-world kiosk integration**
 
 ---
+## Expected Discrepancies with Numerical Model
+- Environmental factors: Ambient humidity and airflow in real settings vary, unlike ideal model assumptions.
+- Material inconsistencies: Natural fabrics (like jute or linen) may have uneven porosity or thickness, affecting evaporation.
+- Heat losses: Model may not fully capture heat exchange through the bottle cap or sides not covered in fabrics.
+- Evaporation rate constants: Experimental values may differ due to wind turbulence and fabric saturation limits.
+  
+## Risk Assessment Summary
+- Electrical safety: Low-voltage (12V) fans minimise risk, but all wiring is kept insulated and secured.
+- Water handling: Spills are contained; equipment is elevated to avoid contact.
+- Sharp tools: Used for cutting bottles/buckets—handled with care and PPE.
+- Trip hazard: Cables and fan mounts secured to prevent accidents.
+
+
 
 ## Fabric Selection Summary
 
