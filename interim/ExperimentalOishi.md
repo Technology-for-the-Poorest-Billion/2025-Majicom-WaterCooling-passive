@@ -3,7 +3,7 @@
 
 I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing.
 
-<!-- While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. 
+<!-- While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. -->
 
 ---
 
@@ -56,7 +56,7 @@ It allows us to standardise cooling effectiveness across varying room temperatur
 
 This directly maps to thermal modelling inputs: the numerical model Alex is developing simulates heat flux balance across the bottle surface, where ambient air temp is a boundary condition and fabric-induced cooling affects surface heat transfer coefficients.
 
-<!-- By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions.
+<!-- By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions. -->
 
 ## Analysis 
 ![Experimental Setup](interimassets/gm2_graph_1.png)
