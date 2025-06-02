@@ -39,13 +39,14 @@ Each material was wrapped in **1 or 2 layers** depending on thickness (~0.2 to 0
 ## Measurements 
 
 For each trial, I recorded the following:
-*Fabric wet and dry weight* — to measure how much water is retained initially and track drying.
-*Initial and final water temperature (°C)* — to assess cooling effectiveness over a fixed period.
-*Room temperature (ambient)* — to contextualise thermal gradients and allow comparison across trials.
-*Time elapsed — standardised* (e.g. 40 min) for fair comparison.
-*Water mass loss* — to evaluate evaporation rate directly to fit numerical model.
+- *Fabric wet and dry weight* — to measure how much water is retained initially and track drying.
+- *Initial and final water temperature (°C)* — to assess cooling effectiveness over a fixed period.
+- *Room temperature (ambient)* — to contextualise thermal gradients and allow comparison across trials.
+- *Time elapsed — standardised* (e.g. 40 min) for fair comparison.
+- *Water mass loss* — to evaluate evaporation rate directly to fit numerical model.
 
-*Using ΔT = T_ambient - T_bottle is critical*
+- *Using ΔT = T_ambient - T_bottle is critical*
+- 
 We focus on the temperature differential between the ambient environment and the cooled bottle because:
 A more negative ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
 It allows us to standardise cooling effectiveness across varying room temperatures, which is especially relevant for future outdoor testing.
@@ -56,23 +57,23 @@ By linking the experimental ΔT results to modelled heat loss, we validate assum
 
 ## Analysis 
 
-Fan speed and position matter:
+- Fan speed and position matter:
 12V > 9V — higher airflow gave better cooling.
 Bottom fans worked better than top fans, likely due to better contact with wet fabric.
 
-Linen performed best:
+- Linen performed best:
 Fastest and most sustained cooling across trials. High breathability + quick drying.
 
-Cotton was decent:
+- Cotton was decent:
 Improved with airflow, especially under top fan. Good absorption, moderate evaporation.
 
-Jute was slow but steady:
+- Jute was slow but steady:
 Retained more water, cooled slowly. Less effective in short trials but potentially better for long-term cooling.
 
-Control (no fabric):
+- Control (no fabric):
 Heated up over time — proves that airflow alone isn't enough without evaporation.
 
-We used ΔT = T_ambient − T_bottle as our main metric:
+- We used ΔT = T_ambient − T_bottle as our main metric:
 Larger ΔT = more effective cooling.
 This also links directly to our numerical model, which uses ΔT to validate simulated heat transfer and evaporation rates.
 
@@ -86,7 +87,6 @@ This also links directly to our numerical model, which uses ΔT to validate simu
 - Conduct **outdoor validation** (weather permitting)
 - Prepare implementation proposal for **real-world kiosk integration**
 
----
 
 ---
 
