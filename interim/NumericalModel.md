@@ -25,7 +25,7 @@ The aim of the model is to identify the temperature drop in the body of water as
 
 Keeping variables such as tank / kiosk geometry controlled, and making a series of assumptions to simplify parts of the analysis. 
 
-### Transport Properties of moist air
+#Transport Properties of moist air
 
 In order to be able to accurately model the airflow. It is important to be able to determine the transport properties of air.
 
@@ -49,7 +49,7 @@ Further investigation revealed that these features had already been built into p
 
 
 
-### Air Speed Calculation
+#Air Speed Calculation
 
 - Using fan properties to calculate the airspeed. This can be achieved either through analytic approximations for air speed based on fan power, or by using different fan specifications (using its CFM - cubic feet per minute, i.e volumetric flow rate)
 
@@ -59,10 +59,10 @@ Input:
 Output:
 - Air speed 
 
-### Evaporation Rate Calculation 
+# Evaporation Rate Calculation 
 
 
-![Heat Transfer Diagram ](interim/interimassets/gm2alex.jpg)
+![Heat Transfer Diagram ](interimassets/gm2alex.jpg)
 
 - This is likely the most complicated part of code. This will attempt to calculate the rate of evaporation based off of a number of high order approximations. The primary governing equation for this is
 
