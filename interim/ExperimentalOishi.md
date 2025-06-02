@@ -1,6 +1,7 @@
 # Evaporative Cooling T2 Methodology and Testing
 **Summary:** My role focuses on designing, building, and testing an evaporative cooling system for Majicom's solar-powered water purification kiosk. The aim is to keep purified water cool post-filtration, particularly in hot off grid environments like Tanzania, where both energy and material resources are limited.
-**End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
+## **End goal:**
+- Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
 - Prepare implementation proposal for **real-world kiosk integration**
 
 <!-- I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing. -->
@@ -11,7 +12,7 @@
 
 ## Experimental Method
 
-To test evaporative cooling performance, I developed a **controlled model** using:
+To test evaporative cooling performance, a developed **controlled model** is used:
 
 - 1L plastic bottles (representing kiosk containers)
 - A small 3–5L bucket acting as an airflow chamber
@@ -46,12 +47,13 @@ Each material was wrapped in **1 or 2 layers** depending on thickness (2mm), and
 
 For each trial, I recorded the following:
 - *Fabric wet and dry weight* — to measure how much water is retained initially and track drying.
-- *Initial and final water temperature (°C)* — to assess cooling effectiveness over a fixed period.
-- *Room temperature (ambient)* — to contextualise thermal gradients and allow comparison across trials.
+- *Water temperature in bottle (°C)* — to assess cooling effectiveness over a fixed period.
+- *Ambient temperature* — to contextualise thermal gradients and allow comparison across trials.
 - *Time elapsed — standardised* (e.g. 40 min) for fair comparison.
 - *Water mass loss* — to evaluate evaporation rate directly to fit numerical model.
   
  *Using ΔT = T_ambient - T_bottle is critical*
+ 
 We focus on the temperature differential between the ambient environment and the cooled bottle because:
 A larger ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
 It allows us to standardise cooling effectiveness across varying room temperatures, which is especially relevant for future outdoor testing.
@@ -62,7 +64,9 @@ This directly maps to thermal modelling inputs: the numerical model Alex is deve
 
 ## Analysis 
 ![Experimental Setup](interimassets/gm2_graph_1.png)
+
 ![Experimental Setup](interimassets/gm2graph2.png)
+
 ![Experimental Setup](interimassets/gm2graph3.png)
 - Fan speed and position matter:
 12V > 9V — higher airflow gave better cooling.
