@@ -1,15 +1,18 @@
 # Evaporative Cooling T2 Methodology and Testing
 **Summary:** My role focuses on designing, building, and testing an evaporative cooling system for Majicom's solar-powered water purification kiosk. The aim is to keep purified water cool post-filtration, particularly in hot off grid environments like Tanzania, where both energy and material resources are limited.
+## **End goal:**
+- Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
+- Prepare implementation proposal for **real-world kiosk integration**
 
-I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing.
+<!-- I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing. -->
 
-While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. 
+<!-- While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. -->
 
 ---
 
 ## Experimental Method
 
-To test evaporative cooling performance, I developed a **controlled model** using:
+To test evaporative cooling performance, a developed **controlled model** is used:
 
 - 1L plastic bottles (representing kiosk containers)
 - A small 3–5L bucket acting as an airflow chamber
@@ -17,6 +20,10 @@ To test evaporative cooling performance, I developed a **controlled model** usin
 - PC fans (~12V) to generate controlled airflow
 
 The fan is placed **5–10 cm away** from the bottle to ensure measurable airflow across the surface. The bottle is suspended inside the bucket secured by a 3D printed clamp or placed centrally to standardise airflow exposure.
+
+![Experimental Setup](interimassets/gm2expp1.jpg)
+![Experimental Setup](interimassets/gm2expp2.jpg)
+
 
 ### Why This Model?
 
@@ -40,22 +47,27 @@ Each material was wrapped in **1 or 2 layers** depending on thickness (2mm), and
 
 For each trial, I recorded the following:
 - *Fabric wet and dry weight* — to measure how much water is retained initially and track drying.
-- *Initial and final water temperature (°C)* — to assess cooling effectiveness over a fixed period.
-- *Room temperature (ambient)* — to contextualise thermal gradients and allow comparison across trials.
+- *Water temperature in bottle (°C)* — to assess cooling effectiveness over a fixed period.
+- *Ambient temperature* — to contextualise thermal gradients and allow comparison across trials.
 - *Time elapsed — standardised* (e.g. 40 min) for fair comparison.
 - *Water mass loss* — to evaluate evaporation rate directly to fit numerical model.
   
  *Using ΔT = T_ambient - T_bottle is critical*
+ 
 We focus on the temperature differential between the ambient environment and the cooled bottle because:
-A more negative ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
+A larger ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
 It allows us to standardise cooling effectiveness across varying room temperatures, which is especially relevant for future outdoor testing.
 
 This directly maps to thermal modelling inputs: the numerical model Alex is developing simulates heat flux balance across the bottle surface, where ambient air temp is a boundary condition and fabric-induced cooling affects surface heat transfer coefficients.
 
-By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions.
+<!-- By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions. -->
 
 ## Analysis 
+![Experimental Setup](interimassets/gm2_graph_1.png)
 
+![Experimental Setup](interimassets/gm2graph2.png)
+
+![Experimental Setup](interimassets/gm2graph3.png)
 - Fan speed and position matter:
 12V > 9V — higher airflow gave better cooling.
 Bottom fans worked better than top fans, likely due to better contact with wet fabric.
@@ -72,26 +84,13 @@ Retained more water, cooled slowly. Less effective in short trials but potential
 - Control (no fabric):
 Heated up over time — proves that airflow alone isn't enough without evaporation.
 
-We used ΔT = T_ambient − T_bottle as our main metric:
-Larger ΔT = more effective cooling.
-This also links directly to our numerical model, which uses ΔT to validate simulated heat transfer and evaporation rates.
-
-## Main Goals and Next Steps
+## Next Steps
 
 This impacts testing going forward by helping us narrow down variables and focus on what works best:
 We'll prioritise linen as the main material since it showed the strongest cooling.
 12V bottom fan setup will be our default, as it consistently gave the best results.
-We'll now test fan distance and possibly multi-layer fabric setups to fine-tune performance.
+We'll now test fan position, speed and possibly multi-layer fabric setups to fine-tune performance.
 These results also let us calibrate the numerical model more accurately, so future testing can be more predictive and less trial-and-error.
-
-**End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
-
-
-### Key next steps:
-- Finalise testing for **fan distance and speed variations**
-- Narrow down to **2–3 most promising setups**
-- Conduct **outdoor validation** (weather permitting)
-- Prepare implementation proposal for **real-world kiosk integration**
 
 ---
 ## Expected Discrepancies with Numerical Model
