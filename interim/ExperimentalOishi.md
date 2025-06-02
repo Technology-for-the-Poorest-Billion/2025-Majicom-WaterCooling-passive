@@ -44,9 +44,8 @@ For each trial, I recorded the following:
 - *Room temperature (ambient)* — to contextualise thermal gradients and allow comparison across trials.
 - *Time elapsed — standardised* (e.g. 40 min) for fair comparison.
 - *Water mass loss* — to evaluate evaporation rate directly to fit numerical model.
-
-- *Using ΔT = T_ambient - T_bottle is critical*
-- 
+  
+ *Using ΔT = T_ambient - T_bottle is critical*
 We focus on the temperature differential between the ambient environment and the cooled bottle because:
 A more negative ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
 It allows us to standardise cooling effectiveness across varying room temperatures, which is especially relevant for future outdoor testing.
@@ -91,7 +90,6 @@ These results also let us calibrate the numerical model more accurately, so futu
 - Narrow down to **2–3 most promising setups**
 - Conduct **outdoor validation** (weather permitting)
 - Prepare implementation proposal for **real-world kiosk integration**
-
 
 ---
 
