@@ -62,7 +62,7 @@ Output:
 ### Evaporation Rate Calculation 
 
 
-(interim/interimassets/gm2alex.jpg)
+!(interim/interimassets/gm2alex.jpg)
 
 - This is likely the most complicated part of code. This will attempt to calculate the rate of evaporation based off of a number of high order approximations. The primary governing equation for this is
 
