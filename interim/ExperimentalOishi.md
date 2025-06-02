@@ -88,8 +88,7 @@ Heated up over time — proves that airflow alone isn't enough without evaporati
 
 This impacts testing going forward by helping us narrow down variables and focus on what works best:
 We'll prioritise linen as the main material since it showed the strongest cooling.
-12V bottom fan setup will be our default, as it consistently gave the best results.
-We'll now test fan position, speed and possibly multi-layer fabric setups to fine-tune performance.
+We'll now test one more fan position (two fans controlling airflow from the side), speed and possibly multi-layer fabric setups to fine-tune performance, and choose the optimal parameters.
 These results also let us calibrate the numerical model more accurately, so future testing can be more predictive and less trial-and-error.
 
 ---
