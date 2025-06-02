@@ -1,4 +1,4 @@
-# Evaporative Cooling T2 Methodology and Testing
+# Evaporative Cooling T2 Experimental Testing
 **Summary:** My role focuses on designing, building, and testing an evaporative cooling system for Majicom's solar-powered water purification kiosk. The aim is to keep purified water cool post-filtration, particularly in hot off grid environments like Tanzania, where both energy and material resources are limited.
 ## **End goal:**
 - Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
