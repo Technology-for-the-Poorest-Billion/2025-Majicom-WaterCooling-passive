@@ -18,6 +18,10 @@ To test evaporative cooling performance, I developed a **controlled model** usin
 
 The fan is placed **5–10 cm away** from the bottle to ensure measurable airflow across the surface. The bottle is suspended inside the bucket secured by a 3D printed clamp or placed centrally to standardise airflow exposure.
 
+![Experimental Setup](interimassets/gm2expp1.jpg)
+![Experimental Setup](interimassets/gm2expp2.jpg)
+
+
 ### Why This Model?
 
 - Represents the **scale and shape** of real-world water containers
@@ -55,7 +59,9 @@ This directly maps to thermal modelling inputs: the numerical model Alex is deve
 By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions.
 
 ## Analysis 
-
+![Experimental Setup](interimassets/gm2_graph_1.jpg)
+![Experimental Setup](interimassets/gm2graph2.jpg)
+![Experimental Setup](interimassets/gm2graph3.jpg)
 - Fan speed and position matter:
 12V > 9V — higher airflow gave better cooling.
 Bottom fans worked better than top fans, likely due to better contact with wet fabric.
