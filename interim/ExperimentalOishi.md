@@ -1,5 +1,7 @@
 # Evaporative Cooling T2 Methodology and Testing
 **Summary:** My role focuses on designing, building, and testing an evaporative cooling system for Majicom's solar-powered water purification kiosk. The aim is to keep purified water cool post-filtration, particularly in hot off grid environments like Tanzania, where both energy and material resources are limited.
+**End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
+- Prepare implementation proposal for **real-world kiosk integration**
 
 I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing.
 
@@ -78,7 +80,7 @@ Retained more water, cooled slowly. Less effective in short trials but potential
 - Control (no fabric):
 Heated up over time — proves that airflow alone isn't enough without evaporation.
 
-## Main Goals and Next Steps
+## Next Steps
 
 This impacts testing going forward by helping us narrow down variables and focus on what works best:
 We'll prioritise linen as the main material since it showed the strongest cooling.
@@ -86,8 +88,6 @@ We'll prioritise linen as the main material since it showed the strongest coolin
 We'll now test fan position, speed and possibly multi-layer fabric setups to fine-tune performance.
 These results also let us calibrate the numerical model more accurately, so future testing can be more predictive and less trial-and-error.
 
-**End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
-- Prepare implementation proposal for **real-world kiosk integration**
 ---
 ## Expected Discrepancies with Numerical Model
 - Environmental factors: Ambient humidity and airflow in real settings vary, unlike ideal model assumptions.
