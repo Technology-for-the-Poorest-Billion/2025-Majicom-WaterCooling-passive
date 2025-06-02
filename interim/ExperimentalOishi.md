@@ -3,7 +3,7 @@
 
 I have selected sustainable materials, designing the experimental setup, and building a testing framework to compare passive and fan-assisted evaporative cooling performance. I’ve also developed a detailed **risk assessment** to ensure safety throughout testing.
 
-While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. 
+<!-- While T1 is exploring a **heat pump-based system**, our work focuses on an **assisted passive cooling solution** that avoids high power demands. This approach could operate independently or in parallel with active systems, offering a more affordable and energy-efficient alternative. 
 
 ---
 
@@ -51,17 +51,17 @@ For each trial, I recorded the following:
   
  *Using ΔT = T_ambient - T_bottle is critical*
 We focus on the temperature differential between the ambient environment and the cooled bottle because:
-A more negative ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
+A larger ΔT (larger drop in bottle temp relative to air) indicates more effective evaporative cooling.
 It allows us to standardise cooling effectiveness across varying room temperatures, which is especially relevant for future outdoor testing.
 
 This directly maps to thermal modelling inputs: the numerical model Alex is developing simulates heat flux balance across the bottle surface, where ambient air temp is a boundary condition and fabric-induced cooling affects surface heat transfer coefficients.
 
-By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions.
+<!-- By linking the experimental ΔT results to modelled heat loss, we validate assumptions such as convective coefficients, evaporation rate constants, and the influence of airflow velocity on surface cooling. These measured values provide grounding for refining the numerical simulation of real kiosk conditions.
 
 ## Analysis 
-![Experimental Setup](interimassets/gm2_graph_1.jpg)
-![Experimental Setup](interimassets/gm2graph2.jpg)
-![Experimental Setup](interimassets/gm2graph3.jpg)
+![Experimental Setup](interimassets/gm2_graph_1.png)
+![Experimental Setup](interimassets/gm2graph2.png)
+![Experimental Setup](interimassets/gm2graph3.png)
 - Fan speed and position matter:
 12V > 9V — higher airflow gave better cooling.
 Bottom fans worked better than top fans, likely due to better contact with wet fabric.
@@ -78,27 +78,16 @@ Retained more water, cooled slowly. Less effective in short trials but potential
 - Control (no fabric):
 Heated up over time — proves that airflow alone isn't enough without evaporation.
 
-We used ΔT = T_ambient − T_bottle as our main metric:
-Larger ΔT = more effective cooling.
-This also links directly to our numerical model, which uses ΔT to validate simulated heat transfer and evaporation rates.
-
 ## Main Goals and Next Steps
 
 This impacts testing going forward by helping us narrow down variables and focus on what works best:
 We'll prioritise linen as the main material since it showed the strongest cooling.
 12V bottom fan setup will be our default, as it consistently gave the best results.
-We'll now test fan distance and possibly multi-layer fabric setups to fine-tune performance.
+We'll now test fan position, speed and possibly multi-layer fabric setups to fine-tune performance.
 These results also let us calibrate the numerical model more accurately, so future testing can be more predictive and less trial-and-error.
 
 **End goal:** Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
-
-
-### Key next steps:
-- Finalise testing for **fan distance and speed variations**
-- Narrow down to **2–3 most promising setups**
-- Conduct **outdoor validation** (weather permitting)
 - Prepare implementation proposal for **real-world kiosk integration**
-
 ---
 ## Expected Discrepancies with Numerical Model
 - Environmental factors: Ambient humidity and airflow in real settings vary, unlike ideal model assumptions.
