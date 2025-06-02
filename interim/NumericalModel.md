@@ -25,7 +25,7 @@ The aim of the model is to identify the temperature drop in the body of water as
 
 Keeping variables such as tank / kiosk geometry controlled, and making a series of assumptions to simplify parts of the analysis. 
 
-#Transport Properties of moist air
+## Transport Properties of moist air
 
 In order to be able to accurately model the airflow. It is important to be able to determine the transport properties of air.
 
