@@ -1,14 +1,14 @@
-title: Project Name 2025
+title: Evaporative Cooling Majicom 
 
 author:
-  name: Student name 1, Student name 2, etc.
+  name: Ibshar Oishi, Alex Mehta, Timothy Tsang
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  This project explores affordable and sustainable cooling solutions for solar-powered water purification kiosks in East Africa. Our focus is on optimizing evaporative cooling using low-cost, locally available materials to keep purified water cool with minimal energy input. Through experimental testing of fabric types and airflow setups, we aim to develop a practical system that enhances water storage conditions, supporting public health and climate resilience. The final solution is designed to be scalable, efficient, and compatible with existing kiosk infrastructure.
+
+
 
 # Build settings
 
