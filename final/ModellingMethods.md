@@ -54,7 +54,7 @@ With the flow in the Majicom kiosk, there are two configurations of interest. Fi
 
 The second configuration has two fans positioned on either side of the tank, facing normally inwards. In this case we consider the flow to be cross flow over a cylinder, which has its own empirical relationship. The primary source of inaccuracy with the model in this instance is the area over which the air flows across the tank. Currently it is being assumed to be over the entire height of the tank, however depending on the fan size it may be less than this.
 
-The empirical formulae for the Sherwood Number are give as 
+The empirical formulae for the Sherwood Number are give by https://studylib.net/doc/7272115/4-convective-mass-transfer---chemical-engineering-learning and https://wwwcourses.sens.buffalo.edu/ce407/notes/ce407_notes_mass_transfer_correlations.pdf as 
 
 $Sh = 0.664 Re_L^{1/2} Sc^{1/3}$ Laminar Plate Flow
 
@@ -63,6 +63,12 @@ $Sh = 0.036 Re_L^{0.8} Sc^{1/3}$ Turbulent Plate Flow
 $Sh =  0.61 Re_D^{1/2} Sc^{1/3}$ Cylindrical Cross Flow 
 
 Where Re is the Reynold's number with respect to the height (L) or diameter (D), defined as $uL/\nu$ and Sc is the Schmidt Number, defined as $\nu/D$
+
+The key takeaway from the Sherwood Number is the mass transfer coefficient h. h determines the rate of evaporation as 
+
+$m\dot = S*h_m(P_v - P_a)$
+
+Where $P_v$ is the saturated vapour pressure at the fabric temperature and $P_a$ is the partial vapour pressure of water vapour in air
 
 
 
