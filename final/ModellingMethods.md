@@ -56,5 +56,16 @@ The second configuration has two fans positioned on either side of the tank, fac
 
 The empirical formulae for the Sherwood Number are give as 
 
+$Sh = 0.664 Re_L^{1/2} Sc^{1/3}$ Laminar Plate Flow
+
+$Sh = 0.036 Re_L^{0.8} Sc^{1/3}$ Turbulent Plate Flow
+
+$Sh =  0.61 Re_D^{1/2} Sc^{1/3}$ Cylindrical Cross Flow 
+
+Where Re is the Reynold's number with respect to the height (L) or diameter (D), defined as $uL/\nu$ and Sc is the Schmidt Number, defined as $\nu/D$
+
+
+
+
 
 
