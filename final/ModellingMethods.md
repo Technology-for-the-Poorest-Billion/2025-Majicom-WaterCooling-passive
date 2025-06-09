@@ -6,7 +6,7 @@ The numerical model provided an initial means of investigating the behaviour of 
 
 The first aspect of the model is determining the transport properties of air. This has been achieved using the "CoolProp" library (http://www.coolprop.org/) by Bell et al.  (http://pubs.acs.org/doi/abs/10.1021/ie4033999). The air property class uses this library, taking the dry bulb temperature (environmental temperature) and the local relative humidity to determine density, thermal conductivity and other critical attributes. The Diffusion Coefficient of water in air is being determined by an empirical relationship from Yaws, Carl. (2009). Diffusion Coefficient in Air - Inorganic Compounds. Transport Properties of Chemicals and Hydrocarbons. 497-501. 10.1016/B978-0-8155-2039-9.50016-8. 
 
-$ D = A + BT + CT^2$
+$D = A + BT + CT^2$
 
 $A = -10.298, B = -180.06, C =$ FILL OUT THESE NUMBERS
 
@@ -24,6 +24,6 @@ The process of modelling thermal resistance of porous fabric involves considerin
 
 When the fabric contains a smaller volume of water than there are pores, the thermal conductivity can be calculated as:
 
-$(k_total = V_material*k_material + V_air*k_air + V_water*k_water)/V_total)*
-$V_material = (1-\phi)V_total$ $V_water = S*m_sat*V_material_\rho_material/\rho_water$ and $V_air = \phi *V_total - V_water$
+$(k_{total} = V_{material}k_{material} + V_{air}k_{air} + V_{water}k_{water})/V_{total})$
+$V_{material} = (1-\phi)V_{total}$ $V_{water} = S*m_{sat}*V_{material}_\rho_{material}/\rho_{water}$ and $V_{air} = \phi *V_{total} - V_{water}$
 
