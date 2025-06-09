@@ -6,18 +6,24 @@ The numerical model provided an initial means of investigating the behaviour of 
 
 The first aspect of the model is determining the transport properties of air. This has been achieved using the "CoolProp" library (http://www.coolprop.org/) by Bell et al.  (http://pubs.acs.org/doi/abs/10.1021/ie4033999). The air property class uses this library, taking the dry bulb temperature (environmental temperature) and the local relative humidity to determine density, thermal conductivity and other critical attributes. The Diffusion Coefficient of water in air is being determined by an empirical relationship from Yaws, Carl. (2009). Diffusion Coefficient in Air - Inorganic Compounds. Transport Properties of Chemicals and Hydrocarbons. 497-501. 10.1016/B978-0-8155-2039-9.50016-8. 
 
+$ D = A + BT + CT^2$
 
-@article{article,
-author = {Yaws, Carl},
-year = {2009},
-month = {12},
-pages = {497-501},
-title = {Diffusion Coefficient in Air - Inorganic Compounds},
-isbn = {9780815520399},
-journal = {Transport Properties of Chemicals and Hydrocarbons},
-doi = {10.1016/B978-0-8155-2039-9.50016-8}
-}
+$A = -10.298, B = -180.06, C =$ FILL OUT THESE NUMBERS
 
-$ln(D) = A + B/T + Cln(T)$
 
-$A = -10.298, B = -180.06, C =
+## Modelling heat transfer
+
+The core of this model is a resistive analogy for convective, conductive and radiative heat transfer. The system can be described as a series of thermal exchanges between the air, the fabric and the water itself. This is shown pictographically below, alongside an equivalent circuit diagram for the system. Convective and conductive heat transfers are modelled as resistors, whilst the body of water is treated as a capacitor, using a lumped parameter model to assume uniform internal temperature distribution. There are three main routes of convective / conductive heat exchange. Firstly, there is a heat transfer between the air and the fabric. This is then followed by conductive heat transfer between the fabric and the water (these are broken into two separate steps to allow for the removal of energy by evaporation). Additionally, there will be some direct heat transfer between the air and water via the uncovered surfaces on the top and bottom of the tank. 
+
+The model also accounts for radiative heat transfer between the outer wall of the kiosk and the fabric. Radiative heat transfer can be modelled as a separate circuit that can be used to solve for the power exchange between the two grey bodies. This subsequently forms a current source into the fabric node as an additional source of energy into the system. The loss of energy due to the evaporation of water in the fabric is also modelled as a current source. The process of calculating the power draw is a more involved process that will be discussed subsequently.
+
+
+## Determining thermal resistances
+
+The process of modelling thermal resistance of porous fabric involves considering the fabric to be a three phase composition of air, water and the fibres themselves. Air and water have the capacity to drastically reduce or increase the thermal conductivity respectively, and as such it is vital to understand how the saturation ratio affects the conductivity of the fabric as a whole. This is done by considering how porous (via a porosity ratio ranging from 0 to 1) the fabric is. 
+
+When the fabric contains a smaller volume of water than there are pores, the thermal conductivity can be calculated as:
+
+$(k_total = V_material*k_material + V_air*k_air + V_water*k_water)/V_total)*
+$V_material = (1-\phi)V_total$ $V_water = S*m_sat*V_material_\rho_material/\rho_water$ and $V_air = \phi *V_total - V_water$
+
