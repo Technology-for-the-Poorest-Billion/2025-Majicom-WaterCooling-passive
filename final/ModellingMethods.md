@@ -4,7 +4,9 @@ The numerical model provided an initial means of investigating the behaviour of 
 
 ## Air properties 
 
-The first aspect of the model is determining the transport properties of air. This has been achieved using the "CoolProp" library (http://www.coolprop.org/). @article{doi:10.1021/ie4033999,
+The first aspect of the model is determining the transport properties of air. This has been achieved using the "CoolProp" library (http://www.coolprop.org/). 
+
+@article{doi:10.1021/ie4033999,
     author = {Bell, Ian H. and Wronski, Jorrit and Quoilin, Sylvain and Lemort, Vincent},
     title = {Pure and Pseudo-pure Fluid Thermophysical Property Evaluation and
              the Open-Source Thermophysical Property Library CoolProp},
