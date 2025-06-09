@@ -42,6 +42,12 @@ $k_{total} = V_{water}k_{water} + V_{material}k_{material} / V_{material} + V_{w
 
 A similar process is applied for estimating the emissivity of the fabric, again using this linear method of handling a three phase mixture. 
 
+The convective heat transfer coefficient can be determined by considering the Nusselt's number, a dimensionless coefficient that describes heat transfer into a convective flow. Specifically, the correlations used to calculate Nusselt's number are the same as those used below for Sherwood number (see next section), with the Schmidt number replaced with the Prandtl number,
+
+$Pr = \nu/\alpha$
+
+$Nu = hL/k$
+
 ## Calculating evaporative rates
 
 Mass transfer in a forced convection system is governed by the Sherwood Number (Sh). Sh is a non dimensional group that is analagous to the Nusselts Number (Nu) for heat transfer convective systems and describes how mass from a surface diffuses into a moving stream of fluid. Typically the Sherwood number can be determined through a set of empirical relationships that are derived experimentally for a specific geometry. The sherwood number is defined more specifically as 
@@ -66,9 +72,23 @@ Where Re is the Reynold's number with respect to the height (L) or diameter (D),
 
 The key takeaway from the Sherwood Number is the mass transfer coefficient h. h determines the rate of evaporation as 
 
-$m\dot = S*h_m(P_v - P_a)$
+$\dot m = S*h_m(P_v - P_a)$
 
 Where $P_v$ is the saturated vapour pressure at the fabric temperature and $P_a$ is the partial vapour pressure of water vapour in air
+
+The S is added as an additional coefficient to model the impact of the fabric drying. As the fabric dries, less water is able to be drawn to the surface of the fabric to continue evaporation, and as a result the rate of evaporation slows down. In a more fully developed model this would occur in multiple stages. For large values of S, drying has a negligible impact on the rate of evaporation as liquid is drawn to the surface via capillary action. As water is increasingly removed from the system however, and more voids form in pores, this action becomes increasingly inhibited, resulting in a transition where saturation does impact evaporation profiles. 
+
+Gonçalves M, Kim JY, Kim Y, Rubab N, Jung N, Asai T, Hong S, Weon BM. Droplet evaporation on porous fabric materials. Sci Rep. 2022 Jan 20;12(1):1087. doi: 10.1038/s41598-022-04877-w. PMID: 35058506; PMCID: PMC8776847 discuss this in the context of droplets on the surface of the fabric, and how porosity and material behaviours impact evaporation rates.
+
+Knowing the rate of evaporation, the power removed from the system can be easily calculated as
+
+$q\dot = L\dot m$
+
+Where L is the latent heat of vapourisation of water.
+
+
+
+
 
 
 
