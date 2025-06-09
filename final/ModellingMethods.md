@@ -34,7 +34,11 @@ $V_{air} = \phi *V_{total}-V_{water}$
 
 Where $\phi$ is the porosity, S is the saturation ratio (fraction of maximum water mass currently in the material) and $m_{sat}$ is the maximum amount of water that 1kg of fabric can absorb.
 
-$k_air$ is a parameter provided by CoolProp. $k_water$ and $k_fabric$ are given by INSERT SOURCES HERE respectively.
+$k_air$ is a parameter provided by CoolProp. $k_water$ and $k_fabric$ are given by INSERT SOURCES HERE respectively. 
+
+Porosity is not the limiting factor for governing how much water the fabric can absorb. Organic fibres can swell to accomodate a greater volume of water. Pure unwoven cotton, for example can absorb 27x its own weight through this method. In order to account for this phenomenon, I have assumed that no swelling occurs in the first case where $V_{water} < V_{pore}$ until the point where all air is fully displaced from the pores. After this point the conductivity can be modelled as 
+
+$k_{total} = V_{water}k_{water} + V_{material}k_{material / V_{material} + V_{water}$
 
 A similar process is applied for estimating the emissivity of the fabric, again using this linear method of handling a three phase mixture. 
 
