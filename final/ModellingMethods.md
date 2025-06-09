@@ -78,13 +78,68 @@ Where $P_v$ is the saturated vapour pressure at the fabric temperature and $P_a$
 
 The S is added as an additional coefficient to model the impact of the fabric drying. As the fabric dries, less water is able to be drawn to the surface of the fabric to continue evaporation, and as a result the rate of evaporation slows down. In a more fully developed model this would occur in multiple stages. For large values of S, drying has a negligible impact on the rate of evaporation as liquid is drawn to the surface via capillary action. As water is increasingly removed from the system however, and more voids form in pores, this action becomes increasingly inhibited, resulting in a transition where saturation does impact evaporation profiles. 
 
-Gonçalves M, Kim JY, Kim Y, Rubab N, Jung N, Asai T, Hong S, Weon BM. Droplet evaporation on porous fabric materials. Sci Rep. 2022 Jan 20;12(1):1087. doi: 10.1038/s41598-022-04877-w. PMID: 35058506; PMCID: PMC8776847 discuss this in the context of droplets on the surface of the fabric, and how porosity and material behaviours impact evaporation rates.
+Gonçalves M et all  discuss this in the context of droplets on the surface of the fabric, and how porosity and material behaviours impact evaporation rates. (Droplet evaporation on porous fabric materials. Sci Rep. 2022 Jan 20;12(1):1087. doi: 10.1038/s41598-022-04877-w. PMID: 35058506; PMCID: PMC8776847)
 
 Knowing the rate of evaporation, the power removed from the system can be easily calculated as
 
-$q\dot = L\dot m$
+$\dot q = L_v\dot m$
 
 Where L is the latent heat of vapourisation of water.
+
+## Temperature Calculation
+
+Having now determined all of the thermal resistances and the net power into the system (as a function of the fabric temperature which is currently unknown), the next step in the process is to calculate the water and the fabric temperature.
+This proved difficult to achieve analytically for two reasons. Firstly, the temperature of the fabric is unknown. This is important and cannot simply be assumed to be the same as the air temperature due to the cooling it experiences. The second complication is how to account for the time varying behaviour of the bulk of water.
+
+### Solving for Fabric Temperature
+
+In order to solve for the fabric temperature, an energy balance was considered at the fabric node. There are four sources of power in / out of the fabric: evaporative cooling, radiative heating, conductive transfer from the water and convective transfer from the air. For a starting arbitrary guess at Tf it is possible to calculate the energy balance at the node, provided that Tw is also known. Based on the resistive analogy, we would expect the sum of power in / out of the node to be 0. Therefore by determining an error in net power give as
+
+$e = q_{air-fabic} + q_{water - fabric} - q_{evap} + q_{rad}$
+
+We can iteratively solve for the value of Tf that gives a power balance using a Newton-Raphson scheme.
+
+
+### Solving for Water Temperature
+
+Solving for the temperature of the water is equivalent to modelling the discharging of a capacitor. An initial starting temperature is defined (by default is the temperature of the air, but can be changed in the event that cold tap water is being used such as in the experimental testing). Using the above methods the temperature of the fabric at this starting temperature can be evaluated. This allows us to then determine the power flow through the capacitor via an energy balance at the water node
+
+$q_{cap} = q_{air-water} + q_{fabric - water}$
+
+The time dependent behaviour of capacitors is given as 
+
+$I(t) = CdV/dt$ Where I is analogous to q and V is analagous to T. Using a numerical difference scheme, the time evolution of the water temperature can then be determined. The "steady state" condition is reached either when a maximum time is reached, or when the rate of change of temperature crosses a minimum threshold. 
+
+## Drying Characteristics
+
+The final aspect of the model is a drying characteristic. This was initially implemented in the function coolingTime, but was subsequently integrated into the core simulation function, meaning either can be used to physically consistent results (although returning different values). In the numerical difference scheme this is achieved by considering the rate of evaporation and therefore the mass loss within that interval of time. This can then be used to recalculate S and hence determine the amount of time it would take for a sample to fully dry (or to transition between any two arbitrary saturation ratios)
+
+
+## Glossary 
+
+$Re$ = Reynold's Number (Advective vs Viscous non-dimensional number)
+
+$Sc$ = Schmidt Number (Momentum Diffusivity non-dimensional number)
+
+$Pr$ = Prandtl Number (Thermal Diffusivity non-dimensional number)
+
+$Sh$ = Sherwood Number (Convective Mass Transfer non-dimensional number)
+
+$Nu$ = Nusselts' Number (Convective Thermal Transfer non-dimensional number)
+
+$h$ or $h_m$ = Mass Transfer Coefficient 
+
+$S$ = Saturation Ratio (mass of water / maximum absorbable mass of water)
+
+$m_sat$ = Saturated Water Mass (maximum absorbable mass of water per unit mass of fabric)
+
+$\phi$ = Porosity (volume fraction of fabric weave occupied by voids)
+
+$\epsilon$ = emissivity (radiative property)
+
+$L_v$ = Latent heat of vapourisation 
+
+
 
 
 
