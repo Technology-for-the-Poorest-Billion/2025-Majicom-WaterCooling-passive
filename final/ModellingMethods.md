@@ -28,9 +28,17 @@ $k_{total} = (V_{material}k_{material} + V_{air}k_{air} + V_{water}k_{water})/V_
 
 $V_{material} = (1-\phi)V_{total}$ 
 
-$V_{water} = S*m_{sat}*V_{material}_\rho_{material} / \rho_{water}$ 
+$V_{water} = S*m_{sat}*V_{material}\rho_{material} / \rho_{water}$ 
 
 $V_{air} = \phi *V_{total}-V_{water}$
 
-Where $\phi$ is the porosity, S is the saturation ratio (fraction of maximum water mass currently in the material) and $m_{sat}$ is the maximum amount of water that 1kg of fabric can absorb
+Where $\phi$ is the porosity, S is the saturation ratio (fraction of maximum water mass currently in the material) and $m_{sat}$ is the maximum amount of water that 1kg of fabric can absorb.
+
+$k_air$ is a parameter provided by CoolProp. $k_water$ and $k_fabric$ are given by INSERT SOURCES HERE respectively.
+
+A similar process is applied for estimating the emissivity of the fabric, again using this linear method of handling a three phase mixture. 
+
+## Calculating evaporative rates
+
+
 
