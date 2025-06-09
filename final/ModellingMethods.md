@@ -44,5 +44,17 @@ A similar process is applied for estimating the emissivity of the fabric, again 
 
 ## Calculating evaporative rates
 
+Mass transfer in a forced convection system is governed by the Sherwood Number (Sh). Sh is a non dimensional group that is analagous to the Nusselts Number (Nu) for heat transfer convective systems and describes how mass from a surface diffuses into a moving stream of fluid. Typically the Sherwood number can be determined through a set of empirical relationships that are derived experimentally for a specific geometry. The sherwood number is defined more specifically as 
+
+$Sh = h/(D/L)$
+
+Where h is the mass transfer coefficient, D is the diffusion coefficient and L is a characteristic length (either height or diameter depending on whether the flow is axial or crossflow)
+
+With the flow in the Majicom kiosk, there are two configurations of interest. Firstly is the top down / bottom up configuration, in which the fan faces along the axis of the cylinder. There is no standard approach for this type of flow, so the approximation being made is that the edge effects( the deflection of flow due to the ends of the cylinder) are negligible, thus meaning that flow can be considered to be purely axial and thus can be modelled as a flat plate. In reality, the aspect ratio of the tank likely does not lend itself well to this approximation, with a relatively large tank diameter contributing to the radial deflection of air. In this case I am arguing that the presence of the outer sheath helps to redirect flow as it is pushed out radially, ensuring that the flow is approximately axial.
+
+The second configuration has two fans positioned on either side of the tank, facing normally inwards. In this case we consider the flow to be cross flow over a cylinder, which has its own empirical relationship. The primary source of inaccuracy with the model in this instance is the area over which the air flows across the tank. Currently it is being assumed to be over the entire height of the tank, however depending on the fan size it may be less than this.
+
+The empirical formulae for the Sherwood Number are give as 
+
 
 
