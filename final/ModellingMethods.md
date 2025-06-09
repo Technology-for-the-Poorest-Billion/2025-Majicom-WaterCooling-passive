@@ -6,4 +6,4 @@ The numerical model provided an initial means of investigating the behaviour of 
 
 The first aspect of the model is determining the transport properties of air. This has been achieved using the "CoolProp" library (http://www.coolprop.org/) by Bell et al.  (http://pubs.acs.org/doi/abs/10.1021/ie4033999). The air property class uses this library, taking the dry bulb temperature (environmental temperature) and the local relative humidity to determine density, thermal conductivity and other critical attributes. The Diffusion Coefficient of water in air is being determined by an empirical relationship from the CRC Handbook of Chemistry and Physics (https://hbcp.chemnetbase.com/documents/06_40/06_40_0001.xhtml?dswid=-7014), given as
 
-$ ln(D) = A + B/T + C\dot ln(C)$
+$ln(D) = A + B/T + C\dot ln(C)$
