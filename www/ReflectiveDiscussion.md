@@ -9,7 +9,7 @@ UNICEF proposed 17 sustainable development goals which act as a blueprint to ach
 <p align="center">
     <img width="220" alt="water_goal" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/Sustainable_Development_Goal_06CleanWaterSanitation.svg.png" hspace="40">
     <img width="220" alt="infrastructure_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/blob/main/finalassets/Sustainable_Development_Goal_9.png" hspace="40">
-    <img width="220" alt="consumption_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/blob/main/finalassets/Sustainable_Development_Goal_12ResponsibleConsumption.svg.png" hspace="40">
+    <img width="220" alt="consumption_goal" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/Sustainable_Development_Goal_12ResponsibleConsumption.svg.png" hspace="40">
 </p>
 <br />
 
