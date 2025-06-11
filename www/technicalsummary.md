@@ -2,9 +2,6 @@
 title: Technical Summary
 ---
 
-## Numerical model
-placeholder
-
 ## Analysis of results
 
 placeholder
