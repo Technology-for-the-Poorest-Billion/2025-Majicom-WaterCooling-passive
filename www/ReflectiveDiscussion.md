@@ -13,8 +13,9 @@ title: Alignment with Sustainable Development Goals (SDG)
 </p>
 <br />
 
-1. Clean, accessible water for all is an essential part of the world we want to live in. " <br />
-2. Gender equality: Achieve gender equality and empower all women and girls." <br />
+1. Clean, accessible water for all is an essential part of the world we want to live in.  <br />
+2. Investments in infrastructure are crucial to achieving sustainable development. <br />
+3. Responsible Production and Consumption <br />
 <br />
 
 💪 Increasing education 📚 on periods amongst younger girls allows our cycle tracker app to improve physical well-being because improving understanding removes mystery and fear, as well as standardizes practices. Research has shown that in some developing countries, the needs of women during their periods are often neglected due to low education and limited income. In more extreme cases, having a period is considered taboo and should be concealed from the rest of the family. All of these are causes of poor menstrual hygiene and could lead to infections 💉 (e.g. urinary tract infection) and even affect one's ability to reproduce. Albeit an app will not increase one's income nor will it rectify those misconceptions immediately, it will be a concrete step towards an informed period, reducing the likelihood of illness, and gradually improving social status. <br />
