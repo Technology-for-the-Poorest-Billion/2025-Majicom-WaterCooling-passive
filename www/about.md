@@ -1,1 +1,5 @@
-This project is about...
+---
+title: About
+---
+
+Placeholder
