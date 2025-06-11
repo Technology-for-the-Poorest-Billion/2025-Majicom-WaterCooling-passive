@@ -2,7 +2,7 @@
 title: Alignment with Sustainable Development Goals (SDG)
 ---
 
-🌏 UNICEF proposed 17 sustainable development goals which act as a blueprint to achieve a better and more sustainable future for all. A further 9 principles were proposed for the implementation of technology-enabled programs. Being at a junction of development when extreme weather is becoming more frequent and conflicts more intense, engineers must use these goals as guidance to achieve sustainable development and preserve a future for posterity. <br />
+🌏 UNICEF proposed 17 sustainable development goals which act as a blueprint to achieve a better and more sustainable future for all. Being at a junction of development when extreme weather is becoming more frequent and conflicts more intense, engineers must use these goals as guidance to achieve sustainable development and preserve a future for posterity. <br />
 <br />
 ## Sustainable Development Goals
 
