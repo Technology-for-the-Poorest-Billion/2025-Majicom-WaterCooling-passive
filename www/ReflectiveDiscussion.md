@@ -2,7 +2,7 @@
 title: Alignment with Sustainable Development Goals (SDG)
 ---
 
-🌏 UNICEF proposed 17 sustainable development goals which act as a blueprint to achieve a better and more sustainable future for all. Being at a junction of development when extreme weather is becoming more frequent and conflicts more intense, engineers must use these goals as guidance to achieve sustainable development and preserve a future for posterity. <br />
+UNICEF proposed 17 sustainable development goals which act as a blueprint to achieve a better and more sustainable future for all. The three most relavant of the goals are highlighted below. <br />
 <br />
 ## Sustainable Development Goals
 
@@ -17,6 +17,8 @@ title: Alignment with Sustainable Development Goals (SDG)
 2. Investments in infrastructure are crucial to achieving sustainable development. <br />
 3. Responsible Production and Consumption <br />
 <br />
+
+Our work primarily contributes to the progress already made by Majicom and allows for further enhancements in these three areas.
 
 Working with our partner Majicom, the most important goal is to ensure that the water delivered is clean. Therefore, it is crucial to ensure that our passive cooling solution would not lead to an increased risk of water contamination, such that any alterations to the enclosed clean water delivery is not made. Since evaporation cooling uses water for cooling purposes, the efficiency of rate of water evaporation to temperature drop achieved is also investigated to ensure that the use of water is as efficient as possible.<br />
 <br />
