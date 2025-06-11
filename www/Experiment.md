@@ -2,4 +2,14 @@
 title: Experiment
 ---
 
-Placeholder
+## Aim 
+
+placeholder
+
+## Experiment set-up
+
+placeholder
+
+## Results
+
+placeholder
