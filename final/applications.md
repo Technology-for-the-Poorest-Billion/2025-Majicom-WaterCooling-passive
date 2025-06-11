@@ -8,7 +8,7 @@ placeholder
 
 table for comparing costs
 
-## Optimising for needs
+## Optimising for operational needs
 
 placeholder
 
