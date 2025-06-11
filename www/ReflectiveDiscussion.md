@@ -20,7 +20,7 @@ title: Alignment with Sustainable Development Goals (SDG)
 
 Working with our partner Majicom, the most important goal is to ensure that the water delivered is clean. Therefore, it is crucial to ensure that our passive cooling solution would not lead to an increased risk of water contamination, such that any alterations to the enclosed clean water delivery is not made. Since evaporation cooling uses water for cooling purposes, the efficiency of rate of water evaporation to temperature drop achieved is also investigated to ensure that the use of water is as efficient as possible.<br />
 <br />
-Improvement in infrastructure <br />
+Improvement in infrastructure is also addressed. With the inclusion of our cooling system, we are improving the quality of the end products from the water dispensers. Yet, it would be key to ensure that the cooling solution is resilient to the operating environments and durable. Inclusive and sustainable industrialization is also aimed with considerations of increased elements of local assembly or even parts being manufactured locally for the cooling components.<br />
 <br />
 Sustainable consumptions is also promoted through our solution. <br />
 <br />
