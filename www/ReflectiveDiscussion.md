@@ -18,7 +18,7 @@ title: Alignment with Sustainable Development Goals (SDG)
 3. Responsible Production and Consumption <br />
 <br />
 
-Clean water xxx <br />
+Working with our partner Majicom, the most important goal is to ensure that the water delivered is clean. Therefore, it is crucial to ensure that our passive cooling solution would not lead to an increased risk of water contamination, such that any alterations to the enclosed clean water delivery is not made. Since evaporation cooling uses water for cooling purposes, the efficiency of rate of water evaporation to temperature drop achieved is also investigated to ensure that the use of water is as efficient as possible.<br />
 <br />
 Improvement in infrastructure <br />
 <br />
