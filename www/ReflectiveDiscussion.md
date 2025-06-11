@@ -22,7 +22,7 @@ Working with our partner Majicom, the most important goal is to ensure that the 
 <br />
 Improvement in infrastructure is also addressed. With the inclusion of our cooling system, we are improving the quality of the end products from the water dispensers. Yet, it would be key to ensure that the cooling solution is resilient to the operating environments and durable. Inclusive and sustainable industrialization is also aimed with considerations of increased elements of local assembly or even parts being manufactured locally for the cooling components.<br />
 <br />
-Sustainable consumptions is also promoted through our solution. <br />
+Sustainable consumptions is also promoted through our solution. With the use of the passive cooling soluion, the temperature drop of water could be achieved in an energy efficient means compared to refrigirating or other cooling methods, and would help further alleviate bottled water consumption as it allows for the water dispensers to be competitive with refrigirated bottled water. Cooling pad materials could also be recycled from waste clothes which help reduce waste production.<br />
 <br />
 
 
