@@ -1,5 +1,5 @@
 # Readme file for Passive Cooling (Evaporative Cooling)
-**Summary:** placeholder
+This is the read-me file for picking up with our previous work for futher investigations
 ## **Objective**
 - Identify the **most effective, low-cost, material-airflow combination** for evaporative cooling with **minimal water and power use**.
 - Prepare implementation proposal for **real-world kiosk integration**
