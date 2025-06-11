@@ -1,5 +1,5 @@
 ---
-title: Majicom passive water cooling solution
+title: Passive water cooling solution for water kiosk
 ---
 
 ## Introduction
