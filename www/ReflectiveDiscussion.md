@@ -28,7 +28,7 @@ title: Alignment with UNICEF Goals & Principles
 
 <p align="center">
     <img width="200" alt="design_with_people_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/c6c0fb66-4bbf-4380-8dab-e2c0ebdf3645">
-    <img width="200" alt="data_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/7c224ff5-3ffe-487f-9323-faf3eaf42948" hspace="40">
+    <img width="200" alt="ecosystem_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/assets/98086762/7c224ff5-3ffe-487f-9323-faf3eaf42948" hspace="40">
     <img width="200" alt="evidence_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/283b5546-d4d3-407d-9265-bee945a6e68f">
 </p>
 <br />
