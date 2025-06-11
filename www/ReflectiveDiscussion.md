@@ -13,7 +13,7 @@ title: Alignment with Sustainable Development Goals (SDG)
 </p>
 <br />
 
-1. Good health and well-being: Ensure healthy lives and promote well-being for all, at all ages." (including both physical and mental health) <br />
+1. Clean, accessible water for all is an essential part of the world we want to live in. " <br />
 2. Gender equality: Achieve gender equality and empower all women and girls." <br />
 <br />
 
