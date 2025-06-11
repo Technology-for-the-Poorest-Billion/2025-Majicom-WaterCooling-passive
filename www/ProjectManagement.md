@@ -1,5 +1,5 @@
 ---
-title: Project Management (May need help)
+title: Project Management 
 ---
 
 ### Teamwork Strategy
