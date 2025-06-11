@@ -1,5 +1,5 @@
 ---
-title: Alignment with UNICEF Goals & Principles
+title: Alignment with Sustainable Development Goals (SDG)
 ---
 
 🌏 UNICEF proposed 17 sustainable development goals which act as a blueprint to achieve a better and more sustainable future for all. A further 9 principles were proposed for the implementation of technology-enabled programs. Being at a junction of development when extreme weather is becoming more frequent and conflicts more intense, engineers must use these goals as guidance to achieve sustainable development and preserve a future for posterity. <br />
@@ -7,8 +7,9 @@ title: Alignment with UNICEF Goals & Principles
 ## Sustainable Development Goals
 
 <p align="center">
-    <img width="220" alt="good_health_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/3eef7789-f93e-4682-8bc9-761bbcbb60fe">
-    <img width="220" alt="gender_equality_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/0f8a6129-3232-4956-85d6-1f7c862bbe31" hspace="40">
+    <img width="220" alt="water_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/blob/main/finalassets/Sustainable_Development_Goal_06CleanWaterSanitation.svg.png" hspace="40">
+    <img width="220" alt="infrastructure_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/blob/main/finalassets/Sustainable_Development_Goal_9.png" hspace="40">
+    <img width="220" alt="consumption_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/blob/main/finalassets/Sustainable_Development_Goal_12ResponsibleConsumption.svg.png" hspace="40">
 </p>
 <br />
 
