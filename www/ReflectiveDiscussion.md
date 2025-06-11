@@ -4,6 +4,7 @@ title: Alignment with UNICEF Goals & Principles
 
 🌏 UNICEF proposed 17 sustainable development goals which act as a blueprint to achieve a better and more sustainable future for all. A further 9 principles were proposed for the implementation of technology-enabled programs. Being at a junction of development when extreme weather is becoming more frequent and conflicts more intense, engineers must use these goals as guidance to achieve sustainable development and preserve a future for posterity. <br />
 <br />
+## Sustainable Development Goals
 
 <p align="center">
     <img width="220" alt="good_health_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/3eef7789-f93e-4682-8bc9-761bbcbb60fe">
