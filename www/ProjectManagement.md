@@ -1,6 +1,9 @@
 ---
 title: Project Management 
 ---
+### Scope of Work
+
+Our project is broken into two main components: experimental and numerical modelling.
 
 ### Teamwork Strategy
 1. **Ensure Communication**: Establish clear and consistent communication channels to facilitate information sharing and collaboration.
