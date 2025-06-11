@@ -29,12 +29,12 @@ plugins:
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 # header_pages:
-#   - about.md
-#   - index.md
-#   - Experiment.md
-#   - ProjectManagement.md
-#   - ReflectiveDiscussion.md
-#   - technicalsummary.md
+  - index.md
+  - about.md
+  - Experiment.md
+  - technicalsummary.md
+  - ProjectManagement.md
+  - ReflectiveDiscussion.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
