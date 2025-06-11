@@ -23,12 +23,12 @@ title: Alignment with UNICEF Goals & Principles
 🟰 Gender equality is promoted through raising awareness as well. Our app not only empowers female users with reliable tracking but also grants their partners an opportunity to learn and care for their spouse on a single platform. From a broader point of view, gender-related biases include confirmation bias (selective perception 👁 of information to confirm one's theory), availability heuristics (belief based on the availability of information in one's mind), and more. These biases could be the result of culture, personality, and upbringing. Although some aspects, such as personality, are relatively hard to change, raising awareness on our cycle tracker removes barriers to information 🚧, exposing one to new perspectives, thus enabling the user to think more critically with more comprehensive knowledge, and achieving gender equality.<br />
 <br />
 
-### UNICEF Principles for Digital Development (PDD) - a compass for those working to promote sustainable and inclusive development in today’s complex digital landscape 🧭
+### UNICEF Principles for Digital Development (may delete)
 <br />
 
 <p align="center">
     <img width="200" alt="design_with_people_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/c6c0fb66-4bbf-4380-8dab-e2c0ebdf3645">
-    <img width="200" alt="ecosystem_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/assets/98086762/7c224ff5-3ffe-487f-9323-faf3eaf42948" hspace="40">
+    <img width="200" alt="ecosystem_goal" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/Digital-Principles-Refresh-Graphic-1.jpg" hspace="40">
     <img width="200" alt="evidence_goal" src="https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/98086762/283b5546-d4d3-407d-9265-bee945a6e68f">
 </p>
 <br />
