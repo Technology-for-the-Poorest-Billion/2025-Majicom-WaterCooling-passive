@@ -12,8 +12,6 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 <img src="/finalassets/experimentaldata/plots/botfan9V.png" width="500"/>
 
-![Cooling 9V Bottom Fan](/finalassets/experimentaldata/plots/botfan9V.png)
-
 - **Linen** demonstrated the highest cooling (~6°C), achieving a smooth upward curve. Its slower moisture release rate may have helped sustain evaporation over 40 minutes.
 - **Jute** showed an initial dip then gradual rise, indicating delayed but stable evaporation. Likely due to thickness retaining water for longer.
 - **Cotton** rose consistently, but peaked slightly lower than Linen. This matches expectations that cotton, while quick to absorb, also dries faster.
@@ -25,7 +23,7 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 ### 1.2 Bottom Fan, 12V
 
-![Cooling 12V Bottom Fan](/finalassets/experimentaldata/plots/botfan12V.png)
+<img src="/finalassets/experimentaldata/plots/botfan12V.png" width="500"/>
 
 - **Cotton** was clearly the top performer, rising steadily to ~6.8°C.
 - **Jute** and **Linen** showed solid performance (~5.3°C), slightly lower but still effective.
@@ -37,7 +35,7 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 ### 1.3 Top Fan, 9V
 
-![Cooling 9V Top Fan](/finalassets/experimentaldata/plots/topfan9V.png)
+<img src="/finalassets/experimentaldata/plots/topfan9V.png" width="500"/>
 
 - **Cotton** performed best (~5.3°C), again showing strong early and steady gains.
 - **Jute** trailed slightly (~4°C), but showed consistent performance.
@@ -50,7 +48,7 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 ### 1.4 Side Fans ×2, 9V
 
-![Cooling 9V Side Fans](/finalassets/experimentaldata/plots/sidefan9V.png)
+<img src="/finalassets/experimentaldata/plots/sidefan9V.png" width="500"/>
 
 - **Jute** peaked (~3.2°C) mid-way but dropped after 25 mins. Likely dried too quickly.
 - **Cotton** was relatively flat but stable, ending ~3°C.
@@ -63,7 +61,7 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 ### 1.5 Side Fans ×2, 12V
 
-![Cooling 12V Side Fans](/finalassets/experimentaldata/plots/sidefan12V.png)
+<img src="/finalassets/experimentaldata/plots/sidefan12V.png" width="500"/>
 
 - **Cotton** sustained the highest cooling (~6.4°C).
 - **Jute** hovered consistently around ~5.3°C.
