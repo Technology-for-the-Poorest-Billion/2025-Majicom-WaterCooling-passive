@@ -122,13 +122,31 @@ The trends align well with heat transfer and mass diffusion models:
 
 ---
 
-## 3. Recommendations
+## 3. Final Deliverable and reccomendations
 
-- **Best All-Round Setup:** Bottom fan, 12V, Cotton wrap
-- **Most Efficient Low-Energy Setup:** Bottom fan, 9V, Jute
-- **For Sustained Cooling:** Linen with side fans at 12V, or combined wrap
-- **Innovation Opportunity:** Dual-layer wraps (cotton outside, jute inside) or wick-fed fabric reservoirs
-- **Testing Extension:** Include fan pulsing and material rehydration cycles to simulate real use
+
+### Best All-Round Setup: Bottom Fan, 12V, Cotton Wrap
+This configuration produced the highest temperature reduction (~6.8°C) across all trials. Cotton's high capillarity and fast evaporation made it ideal for rapid cooling, especially when supported by strong, directed airflow from the bottom. This setup is suitable for locations where consistent power is available and where periodic fabric rehydration can be managed.
+
+### Most Efficient Low-Energy Setup: Bottom Fan, 9V, Jute
+Jute performed consistently well under low-power airflow, with slower but more stable cooling. Its excellent water retention meant that even at 9V, significant ΔT was achieved (~5.5–6.0°C), making this configuration ideal for energy-constrained applications such as off-grid kiosks running on limited solar power or battery storage.
+
+### For Sustained Cooling: Linen with Side Fans at 12V (or Combined Wrap)
+Linen showed steady, long-duration cooling due to its slower drying properties. When used with dual side fans at 12V, it maintained moderate ΔT with minimal fluctuations over time. This is suitable for areas where constant rehydration is impractical, or for use during high ambient temperatures when long cooling duration is prioritised over rapid initial drop.
+
+### Innovation Opportunity: Dual-Layer Wraps (Cotton Outer, Jute Inner)
+To combine rapid and sustained cooling benefits, a two-layer system is proposed:
+- **Inner layer (Jute):** Acts as a water reservoir with high moisture retention
+- **Outer layer (Cotton):** Provides rapid evaporation and high surface cooling
+
+This hybrid wrap enables an initial sharp drop in temperature from the cotton layer, followed by prolonged cooling as water diffuses from the jute layer outward. This method extends cooling duration without requiring frequent re-soaking, making it highly deployable in field conditions. No change in fan setup is required, and materials are cheap and readily available.
+
+### Testing Extensions & Future Work
+- **Fan pulsing trials:** Assess how intermittent airflow affects performance and drying rate
+- **Material rehydration cycles:** Evaluate fabric resilience over repeated soak/dry usage
+- **Outdoor testing:** Validate under variable humidity, sunlight exposure, and wind
+- **Alternative fabrics:** Explore recycled or synthetic blends, plastic mesh, and pre-woven composites for cost/durability optimisation
+
 
 This data now serves as a validated baseline for field deployment testing and numerical simulation comparisons. The rig, materials, and method are robust, adaptable, and transferrable to real-world settings.
 
