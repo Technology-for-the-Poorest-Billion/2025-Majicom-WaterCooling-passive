@@ -131,7 +131,7 @@ $h$ or $h_m$ = Mass Transfer Coefficient
 
 $S$ = Saturation Ratio (mass of water / maximum absorbable mass of water)
 
-$m_sat$ = Saturated Water Mass (maximum absorbable mass of water per unit mass of fabric)
+$m_{sat}$ = Saturated Water Mass (maximum absorbable mass of water per unit mass of fabric)
 
 $\phi$ = Porosity (volume fraction of fabric weave occupied by voids)
 
