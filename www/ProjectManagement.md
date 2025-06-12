@@ -19,6 +19,8 @@ Our project is broken into two main components: experimental and numerical model
 
 ![Timeline](finalassets/GanttChart.png)
 
+
+
 We managed to successfully follow this workflow for the most part, with some small variations for contingency where project purchasing waas delayed or work took longer than initially anticipated
 
 1. **Cycle Prediction Based on User Input**
