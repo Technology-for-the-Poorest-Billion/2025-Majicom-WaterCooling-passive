@@ -141,7 +141,7 @@ To combine rapid and sustained cooling benefits, a two-layer system is proposed:
 
 This hybrid wrap enables an initial sharp drop in temperature from the cotton layer, followed by prolonged cooling as water diffuses from the jute layer outward. This method extends cooling duration without requiring frequent re-soaking, making it highly deployable in field conditions. No change in fan setup is required, and materials are cheap and readily available.
 
-![Double layer setup](/finalassets/experimentaldata/plots/image_2025-06-12w_155646930.png)
+![Double layer setup](/finalassets/experimentaldata/plots/image_2025-06-12_155646930.png)
 
 ### Testing Extensions & Future Work
 
