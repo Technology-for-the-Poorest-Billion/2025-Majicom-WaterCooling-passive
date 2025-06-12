@@ -56,7 +56,7 @@ The following graphs are included:
 - **Top fan placement** was the least effective
 - **Dual 12V side fans** offer high performance but diminishing returns on energy
 
-For full results, see the '(final/Experiment/Findings.md)' file.
+[Find the full results](/final/Experiment/Findings.md)
 
 ---
 
