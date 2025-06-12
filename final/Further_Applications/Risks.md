@@ -15,5 +15,7 @@ Linen or similar materials may be weakened, shrink or even gradually decompose u
 
 ## Fault diagonosis
 
-how check if fault? fail-safe?
+Further elaborating on inadequate ventilation above, one situation this could occur is if the fan stopped working but water dispensation is not stopped. Oppositely, if the fan is working but there is no water dispensation, experimental results have showed that this would instead lead to an increase in water temperature. 
+
+Solution: Inclusion of a fail-safe system by the use of temperature readings or circuit design
 
