@@ -13,8 +13,11 @@ We used a simple heat exchange model shown below to understand all of the differ
 
 To show a small demonstration of this, we attempted to simulate the water temperature inside the tank for two different coating materials: Cotton & Linen. These results can be seen below, and show clearly how this can be used to estimate the final temperature of the water and how quickly it is able to cool the water down.
 
-<img width="600" alt="Tank Diagram" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/TankDiagram.png">
+<img width="600" alt="Tank Diagram" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/modelData.png">
 
+## Future Development
+
+The main part of this model that, given more time, we would have liked to develop is allowing it to more accurately distinguish between different materials. Material properties are very complex to model, so the next step of development would be to use our experimental results to inform the code and give more accurate numbers to exactly how different materials behave. This extends beyond just different materials, and also includes how different weaves and types of fabric behave. 
 
 
 ## Analysis of results
