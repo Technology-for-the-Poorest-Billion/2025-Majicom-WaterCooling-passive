@@ -36,10 +36,8 @@ Alex - Mechanical & Aero Engineering Student: Numerical Modelling
 - 
 
 ### What Didn't Work
-- **Technical Difficulties and T**: We underestimated the complexity of our primary objectives. This caused delays and resulted in the inability to implement local calendar syncing. After identifying that we may be behind schedule due to the unexpected amount of bugs and issues that required solving, we communicated and decided to take the divide-and-conquer approach where one teammate moves on to the next independent task (e.g. presentation/website) when the others are debugging. This conserves time and enables us to generate a well-functioning deliverable despite one incomplete objective.
 
-### Constructive Recommendations
-1. **Maintain Time Management and Update Plans**: Regularly update the project plan to reflect current progress and ensure timely completion of tasks.
-2. **Foster Good Communication**: Continue to promote open and effective communication among team members to address issues promptly.
-3. **Avoid Last-Minute Rush**: Aim to complete tasks ahead of the deadline to allow time for unforeseen challenges.
-4. **Reassess and Reprioritize**: If delays occur, reassess the timeline and prioritize tasks to ensure that core features are completed on time.
+- **Project Scope**: This project had massive potential for a large scale undertaking of redesigning the kiosk entirely to implement multiple different passive cooling technologies. We very quickly found after our initial discussion and proposal that the bredth of our ideas were impractical to achieve within the tight time constraints. This created an additional challenge of working of what we could practically deliver to best inform the team's future design work
+- **Purchasing Delays**: There were a number of technical delays regarding purchasing that set us back initially, however we were able to obtain the required apparatus and material for our experimental work despite that 
+
+
