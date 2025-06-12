@@ -6,8 +6,12 @@ While linen has been identified as the most suitable material from experiments, 
 
 placeholder
 
-## Evaporative fabric??
+## Evaporative fabric
 
-placeholder
+Dedicated fabrics designed specifically to facilitate evaporative cooling.
+
+Fabric composition: 100% polyester
+
+Price: £8.67 per metre square
 
 
