@@ -8,6 +8,8 @@ The relative humidity varies greatly across wet and dry seasons in Tanzania, ave
 
 <img width="573" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/Mean-monthly-climatic-condition-for-Dar-es-Salaam.png">
 
+Annual climate data of Dar es Salaam, Tanzania 
+
 ## Wetting mechanism
 
 placeholder
