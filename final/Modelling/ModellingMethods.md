@@ -17,6 +17,9 @@ The core of this model is a resistive analogy for convective, conductive and rad
 
 The model also accounts for radiative heat transfer between the outer wall of the kiosk and the fabric. Radiative heat transfer can be modelled as a separate circuit that can be used to solve for the power exchange between the two grey bodies. This subsequently forms a current source into the fabric node as an additional source of energy into the system. The loss of energy due to the evaporation of water in the fabric is also modelled as a current source. The process of calculating the power draw is a more involved process that will be discussed subsequently.
 
+<img width="700" alt="Majicom goals" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/electricalCircuit.png">
+
+
 
 ## Determining thermal resistances
 
