@@ -4,6 +4,6 @@ This folder contains information related to the evaluation of a potential applic
 
 ## Content
 
-Limitations - 
+Limitations - concerns regarding real-life effectiveness
 
-example (materials - 
+Risks - potential faults/ problems that may arise in real-world usage
