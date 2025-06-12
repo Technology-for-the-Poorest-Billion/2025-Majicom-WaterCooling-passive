@@ -4,7 +4,7 @@ Several parameters relating to the real world effectiveness which may lead to di
 
 ## Relative humidity
 
-placeholder
+The relative humidity varies greatly across wet and dry seasons in Tanzania, averaging at around 70% for the wet season. While we are able to demonstrate 
 
 ## Wetting mechanism
 
