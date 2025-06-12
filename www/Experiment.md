@@ -12,7 +12,7 @@ The entire setup was built from scratch with the aim of mimicking Majicom’s us
 
 The bottle in each setup was suspended inside a bucket (that mimicked the kiosk outer shell) with a fan inside that pushed air over the surface of the fabric. The fabric was soaked, wrung and allowed to partially dry to prevent any dripping or other electrical safety hazards. Our fabric selection was based on commonly available fabrics, with an interest in being able to locally source the fabric that we selected
 
-We tested three main fan positions: Fan underneath the bottle, fan above the bottle, and two fans blowing on the sides of the bottle. These each provided unique cooling characteristics that affect both the water temperature and the drying times
+We tested three main fan positions: Fan underneath the bottle, fan above the bottle, and two fans blowing on the sides of the bottle (one fan drawing air into the tank and the other pushing air out). These each provided unique cooling characteristics that affect both the water temperature and the drying times
 
 
 <img width="500" alt="Diagram" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/ExperimentDiagram.png"> <img width="400" alt="Image" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/ExperimentImage.png">
