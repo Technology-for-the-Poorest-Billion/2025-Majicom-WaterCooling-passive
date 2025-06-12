@@ -16,11 +16,10 @@ Our project is broken into two main components: experimental and numerical model
 
 ### Timeline
 
-![timetable](https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/133856676/c3096389-0a40-4a95-a5cd-87abe1f23660)
-![Timeline](https://github.com/Technology-for-the-Poorest-Billion/2024-IMMI/assets/133856676/6a6d9c41-afa4-4cd8-b8b2-6212ee3e91c7)
 
+![Timeline](finalassets/Online Gantt 20250612.png)
 
-Most planned milestones were achieved as outlined in the plan. We completed 4 out of 5 main objectives, with the third objective left for future work.
+We managed to successfully follow this workflow for the most part, with some small variations for contingency where project purchasing waas delayed or work took longer than initially anticipated
 
 1. **Cycle Prediction Based on User Input**
 2. **Prediction Visualization on a Calendar**
