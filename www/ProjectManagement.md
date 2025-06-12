@@ -10,7 +10,9 @@ Our project is broken into two main components: experimental and numerical model
 ### The Team
 
 Oishi - Bio & Mechanical Engineering Student. Main Focus: Experimental Design & Data Collection
+
 Timothy - Mechanical & Aero Engineering Student: Data Collection & Results Analysis 
+
 Alex - Mechanical & Aero Engineering Student: Numerical Modelling 
 
 ### Teamwork Strategy
@@ -38,6 +40,7 @@ Alex - Mechanical & Aero Engineering Student: Numerical Modelling
 ### What Didn't Work
 
 - **Project Scope**: This project had massive potential for a large scale undertaking of redesigning the kiosk entirely to implement multiple different passive cooling technologies. We very quickly found after our initial discussion and proposal that the bredth of our ideas were impractical to achieve within the tight time constraints. This created an additional challenge of working of what we could practically deliver to best inform the team's future design work
+
 - **Purchasing Delays**: There were a number of technical delays regarding purchasing that set us back initially, however we were able to obtain the required apparatus and material for our experimental work despite that 
 
 
