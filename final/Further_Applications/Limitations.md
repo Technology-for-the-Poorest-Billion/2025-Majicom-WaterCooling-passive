@@ -10,4 +10,6 @@ placeholder
 
 placeholder
 
+## Fan placement
 
+placeholder
