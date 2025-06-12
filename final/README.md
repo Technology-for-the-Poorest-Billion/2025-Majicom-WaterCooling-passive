@@ -12,6 +12,7 @@ Placeholder
 
 ## Experimental Method
 
+This part of the project focused on designing and building a low-cost, scalable experimental setup to test evaporative cooling performance using Jute, Cotton, and Linen wraps.
 To test evaporative cooling performance, a developed **controlled model** is used:
 
 - 500mL plastic bottles (representing kiosk containers)
@@ -20,4 +21,12 @@ To test evaporative cooling performance, a developed **controlled model** is use
 - PC fans (~12V) to generate controlled airflow
 
 The fan is placed **5–10 cm away** from the bottle to ensure measurable airflow across the surface. The bottle is suspended inside the bucket secured by a 3D printed clamp or placed centrally to standardise airflow exposure. We are also using cold tap water to mimic the temperature they could get in Tanzania (around 15 degrees).
+
+- Multiple fan placements (bottom, top, side ×2) and voltages (9V, 12V) were tested
+- Cooling was measured via temperature difference (ΔT) over 40 minutes
+- Cotton with a 12V bottom fan yielded the highest cooling (~6.8°C)
+- Jute and Linen showed strength in low-power or long-duration configurations
+
+All processed data, graphs, and detailed analysis can be found in the [`experimentaldata/`](./finalassets/experimentaldata/) folder.  
+➡ [Read the full experimental README](./finalassets/experimentaldata/README.md)
 
