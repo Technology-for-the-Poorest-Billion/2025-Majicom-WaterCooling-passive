@@ -12,8 +12,8 @@ Annual climate data of Dar es Salaam, Tanzania [(Ndetto Et al. 2014)](https://ww
 
 ## Wetting mechanism
 
-placeholder
+Water is applied evenly along the surface for our experiment. However, depending on how the evaporative surface is being wetted, 
 
 ## Fan placement
 
-placeholder
+Due to the ratio of the size of the fan to the container for our experimental set-up, it was not possible for us to experiment with the 
