@@ -30,7 +30,7 @@ $V_{material} = (1-\phi)V_{total}$
 
 $V_{water} = S*m_{sat}*V_{material}\rho_{material} / \rho_{water}$ 
 
-$V_{air} = \phi *V_{total}-V_{water}$
+$V_{air} = \phi \times V_{total}-V_{water}$
 
 Where $\phi$ is the porosity, S is the saturation ratio (fraction of maximum water mass currently in the material) and $m_{sat}$ is the maximum amount of water that 1kg of fabric can absorb.
 
