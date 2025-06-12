@@ -28,4 +28,4 @@ The fan is placed **5–10 cm away** from the bottle to ensure measurable airflo
 - Jute and Linen showed strength in low-power or long-duration configurations
 
 All processed data, graphs, and detailed analysis can be found in the '(/final/experimental/) folder.  
-➡ [Read the full experimental README](/final/experimental/README.md)
+➡ [Read the full experimental README](/final/Experiment/README.md)
