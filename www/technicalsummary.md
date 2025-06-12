@@ -15,15 +15,21 @@ To show a small demonstration of this, we attempted to simulate the water temper
 
 <img width="600" alt="Model Result" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/modelData.png">
 
+
+
+## Additional Data
+
+One of the main benefits of trying to simulate the system as a whole is that it allows us to control a very broad range of inputs to get different results. As well as controlling material, we can control how the air temperature or other important conditions affect the water temperature. 
+
+
+
+This graph is an example of this. It looks at how the temperature and humiditiy affects the temperature of the water. This is vital for determining how cooling varies from the wet to dry season. We find, for example, in the dry season when the air temperature increases and the humidity decreases, we achieve a more effective cooling than we do during the wet season. This value is marked on the graph above. This also helps Majicom inform any future decisions, such as whether it is worth putting in additional energy to dry out the air further, even if that means heating it up 
+
+
+
+
 ## Future Development
 
 The main part of this model that, given more time, we would have liked to develop is allowing it to more accurately distinguish between different materials. Material properties are very complex to model, so the next step of development would be to use our experimental results to inform the code and give more accurate numbers to exactly how different materials behave. This extends beyond just different materials, and also includes how different weaves and types of fabric behave. 
 
 
-## Analysis of results
-
-placeholder
-
-## Further applications
-
-It is identified that linen is the most effective material and thus the actual product could make use of recycled clothes as evaporative cooling layer.
