@@ -15,6 +15,11 @@ The bottle in each setup was suspended inside a bucket (that mimicked the kiosk 
 We tested three main fan positions: Fan underneath the bottle, fan above the bottle, and two fans blowing on the sides of the bottle. These each provided unique cooling characteristics that affect both the water temperature and the drying times
 
 
+<img width="700" alt="Diagram" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/ExperimentDiagram.png">
+
+<img width="700" alt="Image" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/ExperimentImage.png">
+
+
 ## Results
 
 placeholder
