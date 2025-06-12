@@ -14,7 +14,7 @@ Used to define the air in the tank.
 air = AP(T,R)
 ```
 
-Where T is the air temperature (Dry Bulb Temperature) and R is the relative humidity (expressed as a decimal from 0-1)
+Where T is the air temperature (Dry Bulb Temperature in Kelvin) and R is the relative humidity (expressed as a decimal from 0-1)
 
 fanSpec:
 
@@ -67,4 +67,32 @@ plt.plot(results[1],results[2])
 plt.show()
 ```
 Which will print the temperature at the end of the day and plot the temperature evolution across that day.
+
+coolingTime:
+
+Cooling time determines how long it takes for the fabric jacket to dry out from a starting saturation to a target final saturation. This takes the same parameters as the simulateTemp variable, as well as the initial and final saturation ratios. Much like with simulateTemp, it uses a time based difference method to solve for the cooling time, using time steps of dt. By default dt is set to 5 minutes, however it is recommended to change this for full scale kiosk modelling.
+
+``` Ruby
+coolingTime(tank, fan, material, air,TwInit, SInit, SFinal, dt = 300) # Retuns drying time in minutes
+
+```
+
+For example
+
+``` Ruby
+timetoDry = coolingTime(tankReal, fanReal, cotton, airReal, tempAvg , 1, 0, dt = 1800) # Retuns drying time in minutes
+print(timetoDry)
+```
+tempAvg = 33 $\degree C$ (a reference temperature defined in the input database for "airReal" - based on https://www.climatestotravel.com/climate/tanzania). This will return the amount of time it takes for a cotton jacket wrapped around the full scale tank to fully dry out (taking dt = 30 minutes). 
+
+
+
+
+
+
+
+
+
+
+
 
