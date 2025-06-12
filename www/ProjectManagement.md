@@ -17,7 +17,7 @@ Our project is broken into two main components: experimental and numerical model
 ### Timeline
 
 
-![Timeline](finalassets/GanttChart.png)
+<img width="978" alt="Majicom goals" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/GanttChart.png">
 
 
 
