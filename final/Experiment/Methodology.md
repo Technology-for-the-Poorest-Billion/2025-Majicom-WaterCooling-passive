@@ -49,10 +49,14 @@ This gives us a consistent way to compare setups - removing the bias of how hot 
 
 ## 4. Data & Handover Notes
 
-All raw data is saved in the `data/` folder in CSV format. Graphs and visuals are in `plots/`, sorted by material and fan setup. Data includes:
+All raw data is saved in the `experimentaldata/` folder in CSV format. Graphs and visuals are in `plots/`, sorted by material and fan setup. Data includes:
+[Raw Data CSV](./data/raw_data_evap_cooling.csv)  
+[Processed Data CSV](./data/processed_data_evap_cooling.csv)
+
 - Fan speed
 - Placement
 - Initial/final water temperature
+- Change in weight
 - Ambient temperature
 - Calculated cooling
 - Normalised cooling value
