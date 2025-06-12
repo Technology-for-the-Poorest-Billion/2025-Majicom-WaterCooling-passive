@@ -108,7 +108,7 @@ $q_{cap} = q_{air-water} + q_{fabric - water}$
 
 The time dependent behaviour of capacitors is given as 
 
-$I(t) = CdV/dt$ Where I is analogous to q and V is analagous to T. Using a numerical difference scheme, the time evolution of the water temperature can then be determined. The "steady state" condition is reached either when a maximum time is reached, or when the rate of change of temperature crosses a minimum threshold. 
+$I(t) = C \times dV/dt$ Where I is analogous to q and V is analagous to T. Using a numerical difference scheme, the time evolution of the water temperature can then be determined. The "steady state" condition is reached either when a maximum time is reached, or when the rate of change of temperature crosses a minimum threshold. 
 
 ## Drying Characteristics
 
