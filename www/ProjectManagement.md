@@ -6,13 +6,13 @@ title: Project Management
 Our project is broken into two main components: experimental and numerical modelling.
 
 ### Teamwork Strategy
-1. **Ensure Communication**: Establish clear and consistent communication channels to facilitate information sharing and collaboration.
-2. **Regular Meetings**: Schedule frequent meetings to discuss progress, address issues, and make decisions collectively.
-3. **Effective Time Management and Planning**: Assign specific tasks to team members according to their strengths and ensure tasks are completed at different stages to maintain workflow.
-4. **Seek Help When Necessary**: Encourage team members to seek assistance when encountering difficulties, fostering a supportive environment.
-5. **Active Team Work Sessions**: Working in the same room together most days we worked on the project so that we could help each other out.
-6. **Prioritize Primary Tasks**: The original objectives were put into order of importance when focussing on the wider impact. This helped with time management.
-7. **Effective Collaboration**: Understanding how individual strengths can be paired with tasks.
+
+1. **Core Task Identification**: Ensuring that the team had clearly defined core objectives that we focused on working on as a collective
+2. **Cross-Task Communicaton**: Establishing and using communication means even when dividing the project to ensure that the modelling and experimental work remains aligned
+3. **Meeting with Majicom**: Having weekly meetings with the team at Majicom to keep them updated on our progress and identify what data and information would be most valuable to them
+4. **Allocation of tasks**: Ensuring our collective workload is maintained to a manageable level by having a flexible allocation of tasks that allowed people to shift focus to where was most urgent
+5. **Live Documentation**: Maintaining a live documentation of our work to make it easier for collaboration
+   
 
 ### Timeline
 
