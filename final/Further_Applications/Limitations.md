@@ -12,8 +12,8 @@ Annual climate data of Dar es Salaam, Tanzania [(Ndetto Et al. 2014)](https://ww
 
 ## Wetting mechanism
 
-Water is applied evenly along the surface for our experiment. However, depending on how the evaporative surface is being wetted, 
+Water is applied evenly along the surface for our experiment. However, depending on how the evaporative surface is being wetted, the non-uniform distribution of water along the evaporative surface may lead to deviations.
 
 ## Fan placement
 
-Due to the ratio of the size of the fan to the container for our experimental set-up, it was not possible for us to experiment with the 
+Due to the ratio of the size of the fan to the container for our experimental set-up, it was not possible for us to experiment with different locations of the fan. However, it would be key to induce a circular airflow around the inside of the evaporation chamber.
