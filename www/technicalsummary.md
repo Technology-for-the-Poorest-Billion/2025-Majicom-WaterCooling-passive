@@ -26,4 +26,4 @@ placeholder
 
 ## Further applications
 
-placeholder
+It is identified that linen is the most effective material and thus the actual product could make use of recycled clothes as evaporative cooling layer.
