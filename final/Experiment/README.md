@@ -13,7 +13,7 @@ In this folder we have all the experimental methods and findings. For the raw an
 
 - `plots/` – PNG images of final temperature difference graphs for each configuration (fan placement + voltage)
 - `experimentalprocessed.csv` – Cleaned data used to generate the plots (normalised ΔT values)
-- `raw_data/` – If added, would include full temperature logs from each trial
+- `experimentalraw.csv/` – Includes full temperature logs from each trial and all readings taken
 
 ---
 
