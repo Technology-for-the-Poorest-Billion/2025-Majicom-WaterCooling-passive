@@ -8,7 +8,7 @@ The first aspect of the model is determining the transport properties of air. Th
 
 $D = A + BT + CT^2$
 
-$A = -10.298, B = -180.06, C =$ FILL OUT THESE NUMBERS
+$A = -0.2989, B = 1.6254 \times 10^{-3}, C = 7.5 \times 10^{-7}$
 
 
 ## Modelling heat transfer
