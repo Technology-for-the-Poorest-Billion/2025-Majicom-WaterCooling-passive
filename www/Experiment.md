@@ -25,3 +25,13 @@ We tested three main fan positions: Fan underneath the bottle, fan above the bot
 Data was recorded at 5 minute intervals and collated into plots like the ones seen above. These allowed us to clearly identify trends in behaviour between different materials and configurations. Here, for example, we can see cleary that cotton is able to achieve significantly more effective cooling than the other fabrics tested in this example. 
 
 Our investigation involved testing across a broad range of materials, fan speeds and configurations to narrow down and identify what the optimal design for the real world kiosk would be. 
+
+## Conclusions 
+
+## 3. Recommendations
+
+- **Best All-Round Setup:** Bottom fan, 12V, Cotton wrap
+- **Most Efficient Low-Energy Setup:** Bottom fan, 9V, Jute
+- **For Sustained Cooling:** Linen with side fans at 12V, or combined wrap
+- **Innovation Opportunity:** Dual-layer wraps (cotton outside, jute inside) or wick-fed fabric reservoirs
+- **Testing Extension:** Include fan pulsing and material rehydration cycles to simulate real use
