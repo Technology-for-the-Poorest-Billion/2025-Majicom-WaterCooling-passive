@@ -4,7 +4,9 @@ While linen has been identified as the most suitable material from experiments, 
 
 ## Recycled clothes
 
-placeholder
+Fabric composition: variable (including cotton, linen, silk or other synthetic fabrics)
+
+Price: £0.13 per kg from texile banks
 
 ## Evaporative fabric
 
@@ -12,6 +14,6 @@ Dedicated fabrics designed specifically to facilitate evaporative cooling.
 
 Fabric composition: 100% polyester
 
-Price: £8.67 per metre square
+Price: £8.67 per metre square or £57.8 per kg
 
 
