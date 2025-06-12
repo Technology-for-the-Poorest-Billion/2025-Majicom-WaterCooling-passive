@@ -86,6 +86,11 @@ print(timetoDry)
 tempAvg = 33 $\degree C$ (a reference temperature defined in the input database for "airReal" - based on https://www.climatestotravel.com/climate/tanzania). This will return the amount of time it takes for a cotton jacket wrapped around the full scale tank to fully dry out (taking dt = 30 minutes). 
 
 
+## Notes & Comments
+
+- When starting up the code run the "setup", "core modelling" and "input database" sections. If possible try and avoid running the entire "Tests & Results" section as the high run time (particularly for the water temperature against air property heat map) can slow down any analysis quite drastically. 
+
+
 
 
 
