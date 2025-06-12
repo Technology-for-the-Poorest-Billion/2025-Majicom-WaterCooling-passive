@@ -9,6 +9,8 @@ The first aspect of our project was to code a virtual simulation of the Majicom 
 
 We used a simple heat exchange model shown below to understand all of the different sources of energy in and out of the water: Heat from the air, radiation from the tank walls and energy taken away by the evaporative cooling. These all have a complex interplay that are affected by the design of the rest of the tank. Being able to test how changing the tank quickly through this model makes it much faster to test different cooling jackets, and helped to provide some early insight into our ideas. 
 
+<img width="600" alt="Tank Diagram" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/TankDiagram.png">
+
 
 
 
