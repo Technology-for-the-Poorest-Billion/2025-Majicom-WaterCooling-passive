@@ -12,9 +12,6 @@ We used a simple heat exchange model shown below to understand all of the differ
 <img width="600" alt="Tank Diagram" src="https://raw.githubusercontent.com/Technology-for-the-Poorest-Billion/2025-Majicom-WaterCooling-passive/refs/heads/main/finalassets/TankDiagram.png">
 
 
-
-
-
 ## Analysis of results
 
 placeholder
