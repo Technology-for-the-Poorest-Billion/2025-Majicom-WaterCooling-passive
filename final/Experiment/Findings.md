@@ -10,7 +10,7 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 ### 1.1 Bottom Fan, 9V
 
-![Cooling 9V Bottom Fan](./plots/botfan9V.png)
+![Cooling 9V Bottom Fan](.experimentaldata/plots/botfan9V.png)
 
 - **Linen** demonstrated the highest cooling (~6°C), achieving a smooth upward curve. Its slower moisture release rate may have helped sustain evaporation over 40 minutes.
 - **Jute** showed an initial dip then gradual rise, indicating delayed but stable evaporation. Likely due to thickness retaining water for longer.
