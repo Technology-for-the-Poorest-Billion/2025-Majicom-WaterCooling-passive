@@ -6,4 +6,4 @@ This folder contains information related to the evaluation of a potential applic
 
 Limitations - concerns regarding real-life effectiveness
 
-Risks - potential faults/ problems that may arise in real-world usage
+Operational Risks - potential faults/ problems that may arise in real-world usage
