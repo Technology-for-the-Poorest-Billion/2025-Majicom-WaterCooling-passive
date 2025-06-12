@@ -16,4 +16,6 @@ Fabric composition: 100% polyester
 
 Price: £8.67 per metre square or £57.8 per kg
 
+Polyester fabrics are hydrophobic and does not absorb too much water. Instead, moisture is being wicked to the surface of the material. This meant that it has a poor water retention but a high evaporation rate.
+
 
