@@ -1,6 +1,6 @@
 # Modelling Overview 
 
-This document will aim to set out an overview of how to use the code in the model provided within this repository. For more details regarding the inner design and core modelling, see !final/Modelling/ModellingMethods.md. 
+This document will aim to set out an overview of how to use the code in the model provided within this repository. For more details regarding the inner design and core modelling, see "ModellingMethods.md". 
 
 ## Defining New Inputs
 
