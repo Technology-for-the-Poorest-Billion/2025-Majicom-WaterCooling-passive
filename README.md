@@ -27,5 +27,5 @@ The fan is placed **5–10 cm away** from the bottle to ensure measurable airflo
 - Cotton with a 12V bottom fan yielded the highest cooling (~6.8°C)
 - Jute and Linen showed strength in low-power or long-duration configurations
 
-All processed data, graphs, and detailed analysis can be found in the '(/final/experimentaldata/) folder.  
-➡ [Read the full experimental README](/final/experimentaldata/README.md)
+All processed data, graphs, and detailed analysis can be found in the '(/final/experimental/) folder.  
+➡ [Read the full experimental README](/final/experimental/README.md)
