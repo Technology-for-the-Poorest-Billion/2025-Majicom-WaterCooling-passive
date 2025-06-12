@@ -33,7 +33,7 @@ Alex - Mechanical & Aero Engineering Student: Numerical Modelling
 - **Clear Role Assignments**: The workload was balanced and clear throughout the project, allowing for a healthy workload distribution 
 - **Group Cohesion**: Thanks to open communication, the project remained cohesive, with different parts working well together 
 - **Majicom Feedback**: Working closely with Majicom with weekly meetings meant that we could tailor our data collection to what would be most useful for them
-- 
+  
 
 ### What Didn't Work
 
