@@ -10,6 +10,8 @@ All readings were normalised to account for ambient temperature shifts and repor
 
 ### 1.1 Bottom Fan, 9V
 
+<img src="/finalassets/experimentaldata/plots/botfan9V.png" width="500"/>
+
 ![Cooling 9V Bottom Fan](/finalassets/experimentaldata/plots/botfan9V.png)
 
 - **Linen** demonstrated the highest cooling (~6°C), achieving a smooth upward curve. Its slower moisture release rate may have helped sustain evaporation over 40 minutes.
