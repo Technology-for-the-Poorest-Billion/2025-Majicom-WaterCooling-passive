@@ -26,9 +26,7 @@ Data was recorded at 5 minute intervals and collated into plots like the ones se
 
 Our investigation involved testing across a broad range of materials, fan speeds and configurations to narrow down and identify what the optimal design for the real world kiosk would be. 
 
-## Conclusions 
-
-## 3. Recommendations
+## Recommendations
 
 - **Best All-Round Setup:** Bottom fan, 12V, Cotton wrap
 - **Most Efficient Low-Energy Setup:** Bottom fan, 9V, Jute
