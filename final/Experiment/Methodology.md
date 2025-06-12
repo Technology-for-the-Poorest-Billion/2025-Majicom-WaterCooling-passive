@@ -27,7 +27,7 @@ Three fan placements were tested:
 - Top-only
 - Dual side fans (one blowing in air and one blowing out) 
 
-Fan enclosures were made by cutting holes into plastic buckets, just large enough for airflow to pass through without letting in too much extra air from the outside. This helped us create a semi-controlled chamber — useful since room conditions in the UK are inconsistent and could skew results.
+Fan enclosures were made by cutting holes into plastic buckets, just large enough for airflow to pass through without letting in too much extra air from the outside. This helped us create a semi-controlled chamber -useful since room conditions in the UK are inconsistent and could skew results.
 DC 12V fans from old PCs were used because they’re compatible with solar-powered systems and could be easily adjusted between low, medium, and high speeds to see what works best for each fabric.
 
 ---
@@ -37,12 +37,12 @@ DC 12V fans from old PCs were used because they’re compatible with solar-power
 1. **Prep the fabric**  
    Soaked each piece in room-temp water, wrung out for ~10 seconds, and wrapped it securely around a chilled 500 mL water bottle. Secure with tape for consistency.
 2. **Set up airflow**  
-   Placed the wrapped bottle into a plastic bucket. Depending on the test, mount the fan at the bottom, top, or at sides. Use a second bucket /altered as a lid to create a closed chamber and minimise airflow variation. To suspend the bottle in the bucket, a 3D printed clasp was used, secured using bolts.
+   Placed the wrapped bottle into a plastic bucket. Depending on the test, mount the fan at the bottom, top, or at sides. Use a second bucket /altered as a lid to create a closed chamber and minimise airflow variation. To suspend the bottle in the bucket, a 3D printed clasp was made and secured using bolts.
 3. **Take measurements**  
    - Record initial water temperature and ambient chamber temperature, as well as weights of the damp and dry samples.
    - Run the fan for exactly 40 minutes.
    - Record final water and ambient temps.
-   This 40-minute duration was picked because it’s a realistic waiting time between kiosk use or refills, and would give enough time for our material to actually become dry. 24 tests were done in this manner, so doing in conjunction would save much moer time with more resources. 
+   This 40-minute duration was picked because it’s a realistic waiting time between kiosk use or refills, and would give enough time for our material to actually become dry. 24 tests were done in this manner, so doing in conjunction would save much more time with more resources. 
 4. **Calculate cooling**  
    Effective cooling was measured using: Cooling = Ambient Temp - Bottle water Temp. This was to make results fair across trials (since room temp in the UK varies) and normalise our data. 
 This gives us a consistent way to compare setups - removing the bias of how hot or cold the room was each time.
